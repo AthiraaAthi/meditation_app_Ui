@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
+import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
 
 class StartingScreen extends StatelessWidget {
   const StartingScreen({super.key});
@@ -27,6 +28,9 @@ class StartingScreen extends StatelessWidget {
               Container(
                 height: 30,
                 width: 30,
+                decoration: BoxDecoration(
+                    color: Colors.amber,
+                    image: DecorationImage(image: AssetImage(blueMoonIcon))),
               )
             ],
           )
