@@ -13,6 +13,9 @@ class StartingScreen extends StatelessWidget {
         children: [
           SizedBox(
             height: 20,
+          ),
+          Row(
+            children: [],
           )
         ],
       )),
