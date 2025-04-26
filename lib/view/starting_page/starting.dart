@@ -15,7 +15,12 @@ class StartingScreen extends StatelessWidget {
             height: 20,
           ),
           Row(
-            children: [],
+            children: [
+              Text(
+                "Silent",
+                style: TextStyle(),
+              )
+            ],
           )
         ],
       )),
