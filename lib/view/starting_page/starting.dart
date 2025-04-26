@@ -23,7 +23,7 @@ class StartingScreen extends StatelessWidget {
               Text(
                 "Silent",
                 style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 18,
                     fontWeight: FontWeight.w500,
                     letterSpacing: 4),
               ),
@@ -31,8 +31,8 @@ class StartingScreen extends StatelessWidget {
                 width: 5,
               ),
               Container(
-                height: 30,
-                width: 30,
+                height: 20,
+                width: 20,
                 decoration: BoxDecoration(
                     image: DecorationImage(image: AssetImage(blueMoonIcon))),
               ),
@@ -41,7 +41,10 @@ class StartingScreen extends StatelessWidget {
               ),
               Text(
                 "Moon",
-                style: TextStyle(),
+                style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w500,
+                    letterSpacing: 4),
               ),
             ],
           )
