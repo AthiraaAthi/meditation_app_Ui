@@ -15,10 +15,14 @@ class StartingScreen extends StatelessWidget {
             height: 20,
           ),
           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
                 "Silent",
-                style: TextStyle(),
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w500,
+                    letterSpacing: 4),
               )
             ],
           )
