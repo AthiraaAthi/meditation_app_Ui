@@ -23,6 +23,10 @@ class StartingScreen extends StatelessWidget {
                     fontSize: 20,
                     fontWeight: FontWeight.w500,
                     letterSpacing: 4),
+              ),
+              Container(
+                height: 30,
+                width: 30,
               )
             ],
           )
