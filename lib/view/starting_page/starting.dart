@@ -8,6 +8,10 @@ class StartingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: white,
+      body: SafeArea(
+          child: Column(
+        children: [],
+      )),
     );
   }
 }
