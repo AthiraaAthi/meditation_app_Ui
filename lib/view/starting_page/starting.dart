@@ -10,7 +10,11 @@ class StartingScreen extends StatelessWidget {
       backgroundColor: white,
       body: SafeArea(
           child: Column(
-        children: [],
+        children: [
+          SizedBox(
+            height: 20,
+          )
+        ],
       )),
     );
   }
