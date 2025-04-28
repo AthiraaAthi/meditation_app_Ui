@@ -13,6 +13,7 @@ class StartingScreen extends StatelessWidget {
         child: Column(
           children: [
             Expanded(
+              flex: 3,
               child: Stack(children: [
                 Column(
                   children: [
