@@ -59,6 +59,7 @@ class StartingScreen extends StatelessWidget {
               ),
             ],
           ),
+          Align()
         ]),
       ),
     );
