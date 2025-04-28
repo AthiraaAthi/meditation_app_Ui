@@ -65,17 +65,7 @@ class StartingScreen extends StatelessWidget {
                 ),
                 Align(
                   alignment: Alignment.bottomCenter,
-                  child: Container(
-                    width: double.infinity,
-                    height: MediaQuery.of(context).size.height * 0.55,
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(50),
-                        topRight: Radius.circular(50),
-                      ),
-                    ),
-                  ),
+                  child: ClipPath(),
                 )
               ]),
             ),
