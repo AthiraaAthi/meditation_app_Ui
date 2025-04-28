@@ -14,66 +14,97 @@ class StartingScreen extends StatelessWidget {
           children: [
             Expanded(
               flex: 3,
-              child: Stack(children: [
-                Column(
-                  children: [
-                    SizedBox(
-                      height: 20,
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text(
-                          "Silent",
-                          style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.w500,
-                              letterSpacing: 4),
-                        ),
-                        SizedBox(
-                          width: 5,
-                        ),
-                        Container(
-                          height: 20,
-                          width: 20,
-                          decoration: BoxDecoration(
-                              image: DecorationImage(
-                                  image: AssetImage(blueMoonIcon))),
-                        ),
-                        SizedBox(
-                          width: 5,
-                        ),
-                        Text(
-                          "Moon",
-                          style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.w500,
-                              letterSpacing: 4),
-                        ),
-                      ],
-                    ),
-                    SizedBox(
-                      height: 30,
-                    ),
-                    Container(
-                      height: 250,
-                      width: 250,
-                      decoration: BoxDecoration(
-                          image: DecorationImage(image: AssetImage(starting))),
-                    ),
-                  ],
-                ),
-                Align(
-                  alignment: Alignment.bottomCenter,
-                  child: ClipPath(
+              child: Stack(
+                children: [
+                  ClipPath(
                     clipper: BottomWaveClipper(),
                     child: Container(
-                      height: 80,
-                      color: Colors.white,
+                      width: double.infinity,
+                      color: const Color.fromARGB(
+                          255, 236, 233, 233), // light grey background
+                      child: Column(
+                        children: [
+                          const SizedBox(height: 20),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              const Text(
+                                "Silent",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.w500,
+                                  letterSpacing: 4,
+                                ),
+                              ),
+                              const SizedBox(width: 5),
+                              Container(
+                                height: 20,
+                                width: 20,
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    image: AssetImage(blueMoonIcon),
+                                  ),
+                                ),
+                              ),
+                              const SizedBox(width: 5),
+                              const Text(
+                                "Moon",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.w500,
+                                  letterSpacing: 4,
+                                ),
+                              ),
+                            ],
+                          ),
+                          const SizedBox(height: 30),
+                          Container(
+                            height: 250,
+                            width: 250,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage(starting),
+                                fit: BoxFit.contain,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
-                )
-              ]),
+                ],
+              ),
+            ),
+            // Below the curve -> white background
+            Expanded(
+              flex: 2,
+              child: Container(
+                color: white,
+                child: Center(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      const Text(
+                        "We are what we do",
+                        style: TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black,
+                        ),
+                      ),
+                      const SizedBox(height: 10),
+                      Text(
+                        "Thousand of people are using silent moon\nfor smalls meditation",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontSize: 14,
+                          color: Colors.grey.shade600,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
             ),
           ],
         ),
@@ -95,6 +126,7 @@ class BottomWaveClipper extends CustomClipper<Path> {
     var secondControlPoint = Offset(3 * size.width / 4, size.height - 60);
     var secondEndPoint = Offset(size.width, size.height - 30);
 
+    // FIXED: Give 4 arguments separately
     path.quadraticBezierTo(
       firstControlPoint.dx,
       firstControlPoint.dy,
