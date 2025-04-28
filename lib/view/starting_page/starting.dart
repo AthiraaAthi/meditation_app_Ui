@@ -9,45 +9,46 @@ class StartingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: white,
-      body: SafeArea(
-          child: Column(
-        children: [
-          SizedBox(
-            height: 20,
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(
-                "Silent",
-                style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w500,
-                    letterSpacing: 4),
-              ),
-              SizedBox(
-                width: 5,
-              ),
-              Container(
-                height: 20,
-                width: 20,
-                decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(blueMoonIcon))),
-              ),
-              SizedBox(
-                width: 5,
-              ),
-              Text(
-                "Moon",
-                style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w500,
-                    letterSpacing: 4),
-              ),
-            ],
-          )
-        ],
-      )),
+      body: Stack(children: [
+        Column(
+          children: [
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  "Silent",
+                  style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w500,
+                      letterSpacing: 4),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Container(
+                  height: 20,
+                  width: 20,
+                  decoration: BoxDecoration(
+                      image: DecorationImage(image: AssetImage(blueMoonIcon))),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Text(
+                  "Moon",
+                  style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w500,
+                      letterSpacing: 4),
+                ),
+              ],
+            )
+          ],
+        ),
+      ]),
     );
   }
 }
