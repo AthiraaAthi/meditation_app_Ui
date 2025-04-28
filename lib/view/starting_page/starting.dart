@@ -45,7 +45,10 @@ class StartingScreen extends StatelessWidget {
                       letterSpacing: 4),
                 ),
               ],
-            )
+            ),
+            SizedBox(
+              height: 30,
+            ),
           ],
         ),
       ]),
