@@ -61,7 +61,10 @@ class StartingScreen extends StatelessWidget {
           ),
           Align(
             alignment: Alignment.bottomCenter,
-            child: Container(),
+            child: Container(
+              width: double.infinity,
+              height: MediaQuery.of(context).size.height * 0.55,
+            ),
           )
         ]),
       ),
