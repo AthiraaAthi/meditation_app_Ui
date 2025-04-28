@@ -10,63 +10,76 @@ class StartingScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: white,
       body: SafeArea(
-        child: Stack(children: [
-          Column(
-            children: [
-              SizedBox(
-                height: 20,
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(
-                    "Silent",
-                    style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.w500,
-                        letterSpacing: 4),
-                  ),
-                  SizedBox(
-                    width: 5,
-                  ),
-                  Container(
-                    height: 20,
-                    width: 20,
+        child: Column(
+          children: [
+            Expanded(
+              child: Stack(children: [
+                Column(
+                  children: [
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          "Silent",
+                          style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w500,
+                              letterSpacing: 4),
+                        ),
+                        SizedBox(
+                          width: 5,
+                        ),
+                        Container(
+                          height: 20,
+                          width: 20,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                  image: AssetImage(blueMoonIcon))),
+                        ),
+                        SizedBox(
+                          width: 5,
+                        ),
+                        Text(
+                          "Moon",
+                          style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w500,
+                              letterSpacing: 4),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 30,
+                    ),
+                    Container(
+                      height: 250,
+                      width: 250,
+                      decoration: BoxDecoration(
+                          image: DecorationImage(image: AssetImage(starting))),
+                    ),
+                  ],
+                ),
+                Align(
+                  alignment: Alignment.bottomCenter,
+                  child: Container(
+                    width: double.infinity,
+                    height: MediaQuery.of(context).size.height * 0.55,
                     decoration: BoxDecoration(
-                        image:
-                            DecorationImage(image: AssetImage(blueMoonIcon))),
+                      color: Colors.white,
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(50),
+                        topRight: Radius.circular(50),
+                      ),
+                    ),
                   ),
-                  SizedBox(
-                    width: 5,
-                  ),
-                  Text(
-                    "Moon",
-                    style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.w500,
-                        letterSpacing: 4),
-                  ),
-                ],
-              ),
-              SizedBox(
-                height: 30,
-              ),
-              Container(
-                height: 250,
-                width: 250,
-                decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(starting))),
-              ),
-            ],
-          ),
-          Align(
-            alignment: Alignment.bottomCenter,
-            child: Container(
-              width: double.infinity,
-              height: MediaQuery.of(context).size.height * 0.55,
+                )
+              ]),
             ),
-          )
-        ]),
+          ],
+        ),
       ),
     );
   }
