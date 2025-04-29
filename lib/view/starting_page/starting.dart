@@ -103,7 +103,7 @@ class StartingScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 20),
                       Container(
-                        height: 70,
+                        height: 65,
                         width: 350,
                         decoration: BoxDecoration(
                           color: defBlue,
@@ -114,9 +114,9 @@ class StartingScreen extends StatelessWidget {
                             "SIGN UP",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                              fontSize: 16,
-                              color: white,
-                            ),
+                                fontSize: 16,
+                                color: white,
+                                fontWeight: FontWeight.w400),
                           ),
                         ),
                       )
