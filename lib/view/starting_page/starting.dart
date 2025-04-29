@@ -92,7 +92,7 @@ class StartingScreen extends StatelessWidget {
                           color: Colors.black,
                         ),
                       ),
-                      const SizedBox(height: 10),
+                      const SizedBox(height: 20),
                       Text(
                         "Thousand of people are using silent moon\nfor smalls meditation",
                         textAlign: TextAlign.center,
