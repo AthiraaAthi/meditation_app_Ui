@@ -109,7 +109,7 @@ class StartingScreen extends StatelessWidget {
                           color: defBlue,
                           borderRadius: BorderRadius.circular(30),
                         ),
-                        child: Text(""),
+                        child: Text("SIGN UP"),
                       )
                     ],
                   ),
