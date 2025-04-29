@@ -101,16 +101,16 @@ class StartingScreen extends StatelessWidget {
                           color: Colors.grey.shade600,
                         ),
                       ),
+                      Container(
+                        height: 70,
+                        width: 380,
+                        decoration: BoxDecoration(color: defBlue),
+                      )
                     ],
                   ),
                 ),
               ),
             ),
-            Container(
-              height: 70,
-              width: 380,
-              decoration: BoxDecoration(),
-            )
           ],
         ),
       ),
