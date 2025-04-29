@@ -104,8 +104,11 @@ class StartingScreen extends StatelessWidget {
                       const SizedBox(height: 20),
                       Container(
                         height: 70,
-                        width: 380,
-                        decoration: BoxDecoration(color: defBlue),
+                        width: 350,
+                        decoration: BoxDecoration(
+                          color: defBlue,
+                          borderRadius: BorderRadius.circular(30),
+                        ),
                       )
                     ],
                   ),
