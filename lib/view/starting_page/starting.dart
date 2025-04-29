@@ -101,6 +101,7 @@ class StartingScreen extends StatelessWidget {
                           color: Colors.grey.shade600,
                         ),
                       ),
+                      const SizedBox(height: 20),
                       Container(
                         height: 70,
                         width: 380,
