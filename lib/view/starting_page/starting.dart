@@ -17,7 +17,7 @@ class StartingScreen extends StatelessWidget {
               child: Stack(
                 children: [
                   ClipPath(
-                    clipper: BottomWaveClipper(),
+                    clipper: BottomWaveClipper(), //seperate widget below
                     child: Container(
                       width: double.infinity,
                       color: const Color.fromARGB(
