@@ -110,10 +110,8 @@ class StartingScreen extends StatelessWidget {
                           borderRadius: BorderRadius.circular(30),
                         ),
                         child: Center(
-                          child: Text(
-                            "SIGN UP",
-                            textAlign: TextAlign.center,
-                          ),
+                          child: Text("SIGN UP",
+                              textAlign: TextAlign.center, style: TextStyle()),
                         ),
                       )
                     ],
