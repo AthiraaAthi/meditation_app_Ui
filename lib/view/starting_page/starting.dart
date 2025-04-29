@@ -109,6 +109,7 @@ class StartingScreen extends StatelessWidget {
             Container(
               height: 70,
               width: 380,
+              decoration: BoxDecoration(),
             )
           ],
         ),
