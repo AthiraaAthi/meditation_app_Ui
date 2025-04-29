@@ -106,7 +106,9 @@ class StartingScreen extends StatelessWidget {
                 ),
               ),
             ),
-            Container()
+            Container(
+              height: 70,
+            )
           ],
         ),
       ),
