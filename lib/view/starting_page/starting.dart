@@ -124,7 +124,7 @@ class StartingScreen extends StatelessWidget {
                       Row(
                         children: [
                           Text("ALREADY HAVE AN ACCOUNT?"),
-                          TextButton(onPressed: () {}, child: Text("")),
+                          TextButton(onPressed: () {}, child: Text("LOG IN")),
                         ],
                       )
                     ],
