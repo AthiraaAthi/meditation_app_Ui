@@ -134,7 +134,9 @@ class StartingScreen extends StatelessWidget {
                               onPressed: () {},
                               child: Text(
                                 "LOG IN",
-                                style: TextStyle(),
+                                style: TextStyle(
+                                  fontSize: 14,
+                                ),
                               )),
                         ],
                       )
