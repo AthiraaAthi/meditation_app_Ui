@@ -137,6 +137,7 @@ class StartingScreen extends StatelessWidget {
                                 "LOG IN",
                                 style: TextStyle(
                                   fontSize: 14,
+                                  color: defBlue,
                                 ),
                               )),
                         ],
