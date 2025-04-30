@@ -123,7 +123,7 @@ class StartingScreen extends StatelessWidget {
                       const SizedBox(height: 20),
                       Row(
                         children: [
-                          Text(""),
+                          Text("ALREADY HAVE AN ACCOUNT?"),
                           TextButton(onPressed: () {}, child: Text("")),
                         ],
                       )
