@@ -97,7 +97,7 @@ class StartingScreen extends StatelessWidget {
                         "Thousand of people are using silent moon\nfor smalls meditation",
                         textAlign: TextAlign.center,
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           color: txtBlueGrey,
                         ),
                       ),
