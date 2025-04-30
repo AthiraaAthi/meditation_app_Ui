@@ -121,6 +121,7 @@ class StartingScreen extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 20),
+                      TextButton(onPressed: () {}, child: Text(""))
                     ],
                   ),
                 ),
