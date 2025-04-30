@@ -138,6 +138,7 @@ class StartingScreen extends StatelessWidget {
                                 style: TextStyle(
                                   fontSize: 14,
                                   color: defBlue,
+                                  fontWeight: FontWeight.w500,
                                 ),
                               )),
                         ],
