@@ -122,6 +122,7 @@ class StartingScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 20),
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
                             "ALREADY HAVE AN ACCOUNT?",
