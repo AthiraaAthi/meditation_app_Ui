@@ -77,7 +77,7 @@ class StartingScreen extends StatelessWidget {
             ),
             // Below the curve -> white background
             Expanded(
-              flex: 2,
+              flex: 3,
               child: Container(
                 color: white,
                 child: Center(
@@ -119,7 +119,8 @@ class StartingScreen extends StatelessWidget {
                                 fontWeight: FontWeight.w400),
                           ),
                         ),
-                      )
+                      ),
+                      const SizedBox(height: 20),
                     ],
                   ),
                 ),
