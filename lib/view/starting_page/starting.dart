@@ -125,7 +125,9 @@ class StartingScreen extends StatelessWidget {
                         children: [
                           Text(
                             "ALREADY HAVE AN ACCOUNT?",
-                            style: TextStyle(),
+                            style: TextStyle(
+                              fontSize: 14,
+                            ),
                           ),
                           TextButton(
                               onPressed: () {},
