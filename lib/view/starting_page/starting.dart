@@ -104,6 +104,7 @@ class StartingScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 20),
                       InkWell(
+                        onTap: () {},
                         child: Container(
                           height: 65,
                           width: 350,
