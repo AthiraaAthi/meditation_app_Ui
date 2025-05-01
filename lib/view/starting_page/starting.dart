@@ -103,21 +103,23 @@ class StartingScreen extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 20),
-                      Container(
-                        height: 65,
-                        width: 350,
-                        decoration: BoxDecoration(
-                          color: defBlue,
-                          borderRadius: BorderRadius.circular(30),
-                        ),
-                        child: Center(
-                          child: Text(
-                            "SIGN UP",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(
-                                fontSize: 16,
-                                color: white,
-                                fontWeight: FontWeight.w400),
+                      InkWell(
+                        child: Container(
+                          height: 65,
+                          width: 350,
+                          decoration: BoxDecoration(
+                            color: defBlue,
+                            borderRadius: BorderRadius.circular(30),
+                          ),
+                          child: Center(
+                            child: Text(
+                              "SIGN UP",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                  fontSize: 16,
+                                  color: white,
+                                  fontWeight: FontWeight.w400),
+                            ),
                           ),
                         ),
                       ),
