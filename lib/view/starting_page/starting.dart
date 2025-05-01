@@ -100,11 +100,11 @@ class StartingScreen extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           letterSpacing: 2,
-                          fontSize: 12,
+                          fontSize: 14,
                           color: txtBlueGrey,
                         ),
                       ),
-                      const SizedBox(height: 20),
+                      const SizedBox(height: 30),
                       InkWell(
                         onTap: () {
                           Navigator.push(
