@@ -12,9 +12,10 @@ class SignInScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(
-              "Welcome Back!",
-            ),
+            Text("Welcome Back!",
+                style: TextStyle(
+                  fontSize: 24,
+                )),
           ],
         ),
       ),
