@@ -9,6 +9,7 @@ class SignInScreen extends StatelessWidget {
       appBar: AppBar(),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [],
       ),
     );
