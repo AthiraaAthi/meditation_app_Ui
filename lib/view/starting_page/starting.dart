@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
 import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
+import 'package:meditation_app_ui/view/sign_in/sign_in.dart';
 
 class StartingScreen extends StatelessWidget {
   const StartingScreen({super.key});
@@ -104,7 +105,13 @@ class StartingScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 20),
                       InkWell(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => SignInScreen(),
+                              ));
+                        },
                         child: Container(
                           height: 65,
                           width: 350,
