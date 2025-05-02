@@ -31,11 +31,15 @@ class SignInScreen extends StatelessWidget {
                 color: purple,
                 borderRadius: BorderRadius.circular(30),
               ),
-              child: Container(
-                height: 50,
-                width: 50,
-                decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(fbIcon))),
+              child: Row(
+                children: [
+                  Container(
+                    height: 50,
+                    width: 50,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(image: AssetImage(fbIcon))),
+                  ),
+                ],
               ),
             )
           ],
