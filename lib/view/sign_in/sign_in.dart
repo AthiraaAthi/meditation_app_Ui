@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
 
 class SignInScreen extends StatelessWidget {
   const SignInScreen({super.key});
@@ -6,6 +7,7 @@ class SignInScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: white,
       appBar: AppBar(),
       body: Center(
         child: Column(
