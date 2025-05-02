@@ -25,6 +25,7 @@ class SignInScreen extends StatelessWidget {
               height: 20,
             ),
             Container(
+              padding: EdgeInsets.all(10),
               height: 65,
               width: 375,
               decoration: BoxDecoration(
@@ -38,6 +39,9 @@ class SignInScreen extends StatelessWidget {
                     width: 50,
                     decoration: BoxDecoration(
                         image: DecorationImage(image: AssetImage(fbIcon))),
+                  ),
+                  Text(
+                    "CONTINUE WITH FACEBOOK",
                   ),
                 ],
               ),
