@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
+import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
 
 class SignInScreen extends StatelessWidget {
   const SignInScreen({super.key});
@@ -29,6 +30,12 @@ class SignInScreen extends StatelessWidget {
               decoration: BoxDecoration(
                 color: purple,
                 borderRadius: BorderRadius.circular(30),
+              ),
+              child: Container(
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    image: DecorationImage(image: AssetImage(fbIcon))),
               ),
             )
           ],
