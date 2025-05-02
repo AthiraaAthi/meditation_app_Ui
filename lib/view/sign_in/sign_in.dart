@@ -28,6 +28,7 @@ class SignInScreen extends StatelessWidget {
               width: 375,
               decoration: BoxDecoration(
                 color: purple,
+                borderRadius: BorderRadius.circular(30),
               ),
             )
           ],
