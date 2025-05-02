@@ -8,7 +8,9 @@ class SignInScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: white,
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: white,
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
