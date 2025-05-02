@@ -16,7 +16,7 @@ class SignInScreen extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
-                )), //add the google and fb icon to assets and  constants too
+                )),
           ],
         ),
       ),
