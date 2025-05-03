@@ -48,19 +48,24 @@ class SignInScreen extends StatelessWidget {
                 ],
               ),
             ),
+            SizedBox(
+              height: 20,
+            ),
             Container(
               padding: EdgeInsets.all(10),
               height: 65,
               width: 375,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30),
-                border: Border.all(color: Colors.grey.shade400),
+                border: Border.all(color: Colors.grey.shade200, width: 2),
               ),
               child: Row(
                 children: [
                   Container(
                     height: 50,
                     width: 50,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(image: AssetImage(googleIcon))),
                   ),
                 ],
               ),
