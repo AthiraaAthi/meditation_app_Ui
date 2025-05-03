@@ -44,9 +44,7 @@ class SignInScreen extends StatelessWidget {
                     width: 40,
                   ),
                   Text("CONTINUE WITH FACEBOOK",
-                      style: TextStyle(
-                        fontSize: 16,
-                      )),
+                      style: TextStyle(fontSize: 16, color: white)),
                 ],
               ),
             )
