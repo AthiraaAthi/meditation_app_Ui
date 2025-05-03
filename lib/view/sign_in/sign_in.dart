@@ -70,6 +70,9 @@ class SignInScreen extends StatelessWidget {
                   SizedBox(
                     width: 40,
                   ),
+                  Text(
+                    "CONTINUE WITH GOOGLE",
+                  ),
                 ],
               ),
             )
