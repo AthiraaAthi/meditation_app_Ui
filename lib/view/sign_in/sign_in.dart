@@ -57,7 +57,12 @@ class SignInScreen extends StatelessWidget {
                 border: Border.all(color: Colors.grey.shade400),
               ),
               child: Row(
-                children: [],
+                children: [
+                  Container(
+                    height: 50,
+                    width: 50,
+                  ),
+                ],
               ),
             )
           ],
