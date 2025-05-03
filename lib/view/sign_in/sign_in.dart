@@ -52,7 +52,9 @@ class SignInScreen extends StatelessWidget {
               padding: EdgeInsets.all(10),
               height: 65,
               width: 375,
-              decoration: BoxDecoration(),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(30),
+              ),
             )
           ],
         ),
