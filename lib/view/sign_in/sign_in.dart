@@ -49,6 +49,8 @@ class SignInScreen extends StatelessWidget {
               ),
             ),
             Container(
+              padding: EdgeInsets.all(10),
+              height: 65,
               width: 375,
             )
           ],
