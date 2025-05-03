@@ -40,6 +40,9 @@ class SignInScreen extends StatelessWidget {
                     decoration: BoxDecoration(
                         image: DecorationImage(image: AssetImage(fbIcon))),
                   ),
+                  SizedBox(
+                    width: 40,
+                  ),
                   Text(
                     "CONTINUE WITH FACEBOOK",
                   ),
