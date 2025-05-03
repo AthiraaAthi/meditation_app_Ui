@@ -47,7 +47,8 @@ class SignInScreen extends StatelessWidget {
                       style: TextStyle(fontSize: 16, color: white)),
                 ],
               ),
-            )
+            ),
+            Container()
           ],
         ),
       ),
