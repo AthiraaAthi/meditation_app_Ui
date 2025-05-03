@@ -48,7 +48,9 @@ class SignInScreen extends StatelessWidget {
                 ],
               ),
             ),
-            Container()
+            Container(
+              width: 375,
+            )
           ],
         ),
       ),
