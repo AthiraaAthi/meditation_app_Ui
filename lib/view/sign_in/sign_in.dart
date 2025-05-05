@@ -94,6 +94,8 @@ class SignInScreen extends StatelessWidget {
               decoration: InputDecoration(
                 hintText: 'Email address',
                 hintStyle: TextStyle(color: Colors.grey),
+                filled: true,
+                fillColor: Color(0xF5F6F9FF),
               ),
             )
           ],
