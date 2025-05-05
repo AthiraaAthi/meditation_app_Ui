@@ -12,95 +12,99 @@ class SignInScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: white,
       ),
-      body: Center(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Text("Welcome Back!",
-                style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                )),
-            SizedBox(
-              height: 20,
-            ),
-            Container(
-              padding: EdgeInsets.all(10),
-              height: 65,
-              width: 375,
-              decoration: BoxDecoration(
-                color: purple,
-                borderRadius: BorderRadius.circular(30),
-              ),
-              child: Row(
-                children: [
-                  Container(
-                    height: 50,
-                    width: 50,
-                    decoration: BoxDecoration(
-                        image: DecorationImage(image: AssetImage(fbIcon))),
-                  ),
-                  SizedBox(
-                    width: 40,
-                  ),
-                  Text("CONTINUE WITH FACEBOOK",
-                      style: TextStyle(fontSize: 16, color: white)),
-                ],
-              ),
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            Container(
-              padding: EdgeInsets.all(10),
-              height: 65,
-              width: 375,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(30),
-                border: Border.all(color: Colors.grey.shade200, width: 2),
-              ),
-              child: Row(
-                children: [
-                  Container(
-                    height: 50,
-                    width: 50,
-                    decoration: BoxDecoration(
-                        image: DecorationImage(image: AssetImage(googleIcon))),
-                  ),
-                  SizedBox(
-                    width: 40,
-                  ),
-                  Text("CONTINUE WITH GOOGLE",
-                      style: TextStyle(fontSize: 16, color: black)),
-                ],
-              ),
-            ),
-            SizedBox(
-              height: 25,
-            ),
-            TextButton(
-                onPressed: () {},
-                child: Text(
-                  "OR LOG IN WITH EMAIL",
+      body: Padding(
+        padding: const EdgeInsets.all(10),
+        child: Center(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Text("Welcome Back!",
                   style: TextStyle(
-                      fontSize: 16,
-                      color: Colors.grey,
-                      fontWeight: FontWeight.bold),
-                )),
-            SizedBox(
-              height: 25,
-            ),
-            TextField(
-              decoration: InputDecoration(
-                hintText: 'Email address',
-                hintStyle: TextStyle(color: Colors.grey),
-                filled: true,
-                fillColor: Color(0xF5F6F9FF),
-                contentPadding:
-                    EdgeInsets.symmetric(vertical: 16.0, horizontal: 20.0),
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                  )),
+              SizedBox(
+                height: 20,
               ),
-            )
-          ],
+              Container(
+                padding: EdgeInsets.all(10),
+                height: 65,
+                width: 375,
+                decoration: BoxDecoration(
+                  color: purple,
+                  borderRadius: BorderRadius.circular(30),
+                ),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 50,
+                      width: 50,
+                      decoration: BoxDecoration(
+                          image: DecorationImage(image: AssetImage(fbIcon))),
+                    ),
+                    SizedBox(
+                      width: 40,
+                    ),
+                    Text("CONTINUE WITH FACEBOOK",
+                        style: TextStyle(fontSize: 16, color: white)),
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                padding: EdgeInsets.all(10),
+                height: 65,
+                width: 375,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(30),
+                  border: Border.all(color: Colors.grey.shade200, width: 2),
+                ),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 50,
+                      width: 50,
+                      decoration: BoxDecoration(
+                          image:
+                              DecorationImage(image: AssetImage(googleIcon))),
+                    ),
+                    SizedBox(
+                      width: 40,
+                    ),
+                    Text("CONTINUE WITH GOOGLE",
+                        style: TextStyle(fontSize: 16, color: black)),
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 25,
+              ),
+              TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    "OR LOG IN WITH EMAIL",
+                    style: TextStyle(
+                        fontSize: 16,
+                        color: Colors.grey,
+                        fontWeight: FontWeight.bold),
+                  )),
+              SizedBox(
+                height: 25,
+              ),
+              TextField(
+                decoration: InputDecoration(
+                  hintText: 'Email address',
+                  hintStyle: TextStyle(color: Colors.grey),
+                  filled: true,
+                  fillColor: Color(0xF5F6F9FF),
+                  contentPadding:
+                      EdgeInsets.symmetric(vertical: 16.0, horizontal: 20.0),
+                ),
+              )
+            ],
+          ),
         ),
       ),
     );
