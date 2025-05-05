@@ -13,7 +13,7 @@ class SignInScreen extends StatelessWidget {
         backgroundColor: white,
       ),
       body: Padding(
-        padding: const EdgeInsets.all(10),
+        padding: const EdgeInsets.only(left: 20, right: 20),
         child: Center(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -101,7 +101,10 @@ class SignInScreen extends StatelessWidget {
                   fillColor: Color(0xF5F6F9FF),
                   contentPadding:
                       EdgeInsets.symmetric(vertical: 16.0, horizontal: 20.0),
-                  border: OutlineInputBorder(),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10),
+                    borderSide: BorderSide.none,
+                  ),
                 ),
               )
             ],
