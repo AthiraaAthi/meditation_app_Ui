@@ -91,7 +91,10 @@ class SignInScreen extends StatelessWidget {
               height: 25,
             ),
             TextField(
-              decoration: InputDecoration(),
+              decoration: InputDecoration(
+                hintText: 'Email address',
+                hintStyle: TextStyle(color: Colors.grey),
+              ),
             )
           ],
         ),
