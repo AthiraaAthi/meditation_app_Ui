@@ -76,16 +76,16 @@ class SignInScreen extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 30,
+              height: 25,
             ),
             TextButton(
                 onPressed: () {},
                 child: Text(
                   "OR LOG IN WITH EMAIL",
                   style: TextStyle(
-                    fontSize: 16,
-                    color: Colors.grey,
-                  ),
+                      fontSize: 16,
+                      color: Colors.grey,
+                      fontWeight: FontWeight.bold),
                 )),
           ],
         ),
