@@ -87,6 +87,9 @@ class SignInScreen extends StatelessWidget {
                       color: Colors.grey,
                       fontWeight: FontWeight.bold),
                 )),
+            SizedBox(
+              height: 25,
+            ),
           ],
         ),
       ),
