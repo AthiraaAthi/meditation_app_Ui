@@ -112,9 +112,11 @@ class SignInScreen extends StatelessWidget {
               ),
               TextField(
                 decoration: InputDecoration(
-                    hintText: 'Password',
-                    hintStyle: TextStyle(color: Colors.grey),
-                    filled: true),
+                  hintText: 'Password',
+                  hintStyle: TextStyle(color: Colors.grey),
+                  filled: true,
+                  fillColor: Color(0xF5F6F9FF),
+                ),
               )
             ],
           ),
