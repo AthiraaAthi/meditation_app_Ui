@@ -110,7 +110,9 @@ class SignInScreen extends StatelessWidget {
               SizedBox(
                 height: 15,
               ),
-              TextField()
+              TextField(
+                decoration: InputDecoration(),
+              )
             ],
           ),
         ),
