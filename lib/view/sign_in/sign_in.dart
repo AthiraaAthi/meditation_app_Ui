@@ -127,6 +127,10 @@ class SignInScreen extends StatelessWidget {
               SizedBox(
                 height: 20,
               ),
+              Container(
+                height: 65,
+                width: 350,
+              )
             ],
           ),
         ),
