@@ -111,7 +111,9 @@ class SignInScreen extends StatelessWidget {
                 height: 15,
               ),
               TextField(
-                decoration: InputDecoration(),
+                decoration: InputDecoration(
+                  hintText: 'Password',
+                ),
               )
             ],
           ),
