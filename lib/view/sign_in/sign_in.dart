@@ -148,7 +148,12 @@ class SignInScreen extends StatelessWidget {
               ),
               SizedBox(
                 height: 15,
-              )
+              ),
+              TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    "Forgot Password?",
+                  )),
             ],
           ),
         ),
