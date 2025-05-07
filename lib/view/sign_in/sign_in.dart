@@ -153,6 +153,7 @@ class SignInScreen extends StatelessWidget {
                   onPressed: () {},
                   child: Text(
                     "Forgot Password?",
+                    style: TextStyle(),
                   )),
             ],
           ),
