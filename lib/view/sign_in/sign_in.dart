@@ -28,7 +28,7 @@ class SignInScreen extends StatelessWidget {
               ),
               Container(
                 padding: EdgeInsets.all(10),
-                height: 65,
+                height: 50,
                 width: 375,
                 decoration: BoxDecoration(
                   color: purple,
@@ -55,7 +55,7 @@ class SignInScreen extends StatelessWidget {
               ),
               Container(
                 padding: EdgeInsets.all(10),
-                height: 65,
+                height: 50,
                 width: 375,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(30),
@@ -128,7 +128,7 @@ class SignInScreen extends StatelessWidget {
                 height: 20,
               ),
               Container(
-                height: 65,
+                height: 50,
                 width: 350,
                 decoration: BoxDecoration(
                   color: defBlue,
