@@ -134,7 +134,11 @@ class SignInScreen extends StatelessWidget {
                   color: defBlue,
                   borderRadius: BorderRadius.circular(30),
                 ),
-                child: Center(),
+                child: Center(
+                  child: Text(
+                    "LOG IN",
+                  ),
+                ),
               )
             ],
           ),
