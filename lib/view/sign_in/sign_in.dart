@@ -159,6 +159,9 @@ class SignInScreen extends StatelessWidget {
                       fontWeight: FontWeight.w500,
                     ),
                   )),
+              Text(
+                "ALREADY HAVE AN ACCOUNT?",
+              )
             ],
           ),
         ),
