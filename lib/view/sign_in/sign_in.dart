@@ -141,6 +141,7 @@ class SignInScreen extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 16,
                       color: white,
+                      fontWeight: FontWeight.w400,
                     ),
                   ),
                 ),
