@@ -155,6 +155,7 @@ class SignInScreen extends StatelessWidget {
                     "Forgot Password?",
                     style: TextStyle(
                       fontSize: 16,
+                      color: black,
                     ),
                   )),
             ],
