@@ -138,6 +138,7 @@ class SignInScreen extends StatelessWidget {
                   child: Text(
                     "LOG IN",
                     textAlign: TextAlign.center,
+                    style: TextStyle(),
                   ),
                 ),
               )
