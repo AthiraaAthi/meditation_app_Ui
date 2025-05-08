@@ -12,6 +12,7 @@ class SignUpScreen extends StatelessWidget {
         backgroundColor: white,
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [],
       ),
     );
