@@ -16,7 +16,11 @@ class SignUpScreen extends StatelessWidget {
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [],
+            children: [
+              Text(
+                "Create Your Account",
+              ),
+            ],
           ),
         ),
       ),
