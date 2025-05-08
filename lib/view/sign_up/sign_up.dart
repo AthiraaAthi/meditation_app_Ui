@@ -22,6 +22,10 @@ class SignUpScreen extends StatelessWidget {
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
                   )),
+              SizedBox(
+                height: 20,
+              ),
+              Container()
             ],
           ),
         ),
