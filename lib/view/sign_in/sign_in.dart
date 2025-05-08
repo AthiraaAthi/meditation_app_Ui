@@ -164,7 +164,7 @@ class SignInScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      "ALREADY HAVE AN ACCOUNT?",
+                      "DON'T HAVE AN ACCOUNT?",
                       style: TextStyle(
                         color: txtBlueGrey,
                         fontWeight: FontWeight.w500,
