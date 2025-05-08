@@ -17,7 +17,7 @@ class SignInScreen extends StatelessWidget {
         padding: const EdgeInsets.only(left: 20, right: 20),
         child: Center(
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Text("Welcome Back!",
                   style: TextStyle(

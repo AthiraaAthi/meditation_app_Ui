@@ -15,7 +15,7 @@ class SignUpScreen extends StatelessWidget {
         padding: const EdgeInsets.only(left: 20, right: 20),
         child: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Text("Create Your Account",
                   style: TextStyle(
@@ -29,7 +29,10 @@ class SignUpScreen extends StatelessWidget {
                 padding: EdgeInsets.all(10),
                 height: 50,
                 width: 375,
-                decoration: BoxDecoration(),
+                decoration: BoxDecoration(
+                  color: purple,
+                  borderRadius: BorderRadius.circular(30),
+                ),
               )
             ],
           ),
