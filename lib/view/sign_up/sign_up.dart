@@ -11,9 +11,11 @@ class SignUpScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: white,
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [],
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [],
+        ),
       ),
     );
   }
