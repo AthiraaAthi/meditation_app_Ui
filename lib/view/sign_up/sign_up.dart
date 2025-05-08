@@ -11,6 +11,9 @@ class SignUpScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: white,
       ),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
