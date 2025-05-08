@@ -159,26 +159,28 @@ class SignInScreen extends StatelessWidget {
                       fontWeight: FontWeight.w500,
                     ),
                   )),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(
-                    "ALREADY HAVE AN ACCOUNT?",
-                    style: TextStyle(
-                      color: txtBlueGrey,
-                      fontWeight: FontWeight.w500,
+              Expanded(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      "ALREADY HAVE AN ACCOUNT?",
+                      style: TextStyle(
+                        color: txtBlueGrey,
+                        fontWeight: FontWeight.w500,
+                      ),
                     ),
-                  ),
-                  TextButton(
-                      onPressed: () {},
-                      child: Text(
-                        "SIGN UP",
-                        style: TextStyle(
-                          color: purple,
-                          fontWeight: FontWeight.w500,
-                        ),
-                      )),
-                ],
+                    TextButton(
+                        onPressed: () {},
+                        child: Text(
+                          "SIGN UP",
+                          style: TextStyle(
+                            color: purple,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        )),
+                  ],
+                ),
               )
             ],
           ),
