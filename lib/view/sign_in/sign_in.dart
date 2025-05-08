@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
 import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
+import 'package:meditation_app_ui/view/sign_up/sign_up.dart';
 
 class SignInScreen extends StatelessWidget {
   const SignInScreen({super.key});
@@ -171,7 +172,13 @@ class SignInScreen extends StatelessWidget {
                       ),
                     ),
                     TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => SignUpScreen(),
+                              ));
+                        },
                         child: Text(
                           "SIGN UP",
                           style: TextStyle(
