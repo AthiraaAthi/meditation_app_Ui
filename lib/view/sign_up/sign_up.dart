@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
+import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
 
 class SignUpScreen extends StatelessWidget {
   const SignUpScreen({super.key});
@@ -34,7 +35,9 @@ class SignUpScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(30),
                 ),
                 child: Row(
-                  children: [],
+                  children: [
+                    Container(),
+                  ],
                 ),
               ),
             ],
