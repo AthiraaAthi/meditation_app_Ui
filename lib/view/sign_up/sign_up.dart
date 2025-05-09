@@ -33,7 +33,8 @@ class SignUpScreen extends StatelessWidget {
                   color: purple,
                   borderRadius: BorderRadius.circular(30),
                 ),
-              )
+                child: Row(),
+              ),
             ],
           ),
         ),
