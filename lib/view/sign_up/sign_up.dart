@@ -39,7 +39,8 @@ class SignUpScreen extends StatelessWidget {
                     Container(
                       height: 50,
                       width: 50,
-                      decoration: BoxDecoration(),
+                      decoration: BoxDecoration(
+                          image: DecorationImage(image: AssetImage(fbIcon))),
                     ),
                   ],
                 ),
