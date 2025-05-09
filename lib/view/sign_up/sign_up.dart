@@ -48,6 +48,7 @@ class SignUpScreen extends StatelessWidget {
                     Text("CONTINUE WITH FACEBOOK",
                         style: TextStyle(
                           fontSize: 16,
+                          color: white,
                         )),
                   ],
                 ),
