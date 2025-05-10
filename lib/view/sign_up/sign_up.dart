@@ -89,8 +89,9 @@ class SignUpScreen extends StatelessWidget {
                   child: Text(
                     "OR LOG IN WITH EMAIL",
                     style: TextStyle(
-                      fontSize: 16,
-                    ),
+                        fontSize: 16,
+                        color: Colors.grey,
+                        fontWeight: FontWeight.bold),
                   )),
             ],
           ),
