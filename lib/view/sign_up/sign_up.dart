@@ -76,6 +76,9 @@ class SignUpScreen extends StatelessWidget {
                     SizedBox(
                       width: 40,
                     ),
+                    Text(
+                      "CONTINUE WITH GOOGLE",
+                    ),
                   ],
                 ),
               )
