@@ -68,6 +68,8 @@ class SignUpScreen extends StatelessWidget {
                   children: [
                     Container(
                       height: 50,
+                      width: 50,
+                      decoration: BoxDecoration(),
                     ),
                   ],
                 ),
