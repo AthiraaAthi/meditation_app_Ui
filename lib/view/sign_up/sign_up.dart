@@ -84,6 +84,11 @@ class SignUpScreen extends StatelessWidget {
               SizedBox(
                 height: 25,
               ),
+              TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    "OR LOG IN WITH EMAIL",
+                  )),
             ],
           ),
         ),
