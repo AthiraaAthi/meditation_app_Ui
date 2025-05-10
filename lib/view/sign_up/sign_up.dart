@@ -73,6 +73,9 @@ class SignUpScreen extends StatelessWidget {
                           image:
                               DecorationImage(image: AssetImage(googleIcon))),
                     ),
+                    SizedBox(
+                      width: 40,
+                    ),
                   ],
                 ),
               )
