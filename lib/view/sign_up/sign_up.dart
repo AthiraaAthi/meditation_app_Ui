@@ -116,6 +116,8 @@ class SignUpScreen extends StatelessWidget {
               TextField(
                 decoration: InputDecoration(
                   hintText: 'Email address',
+                  hintStyle: TextStyle(color: Colors.grey),
+                  filled: true,
                 ),
               ),
             ],
