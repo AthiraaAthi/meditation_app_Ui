@@ -113,7 +113,11 @@ class SignUpScreen extends StatelessWidget {
               SizedBox(
                 height: 15,
               ),
-              TextField(),
+              TextField(
+                decoration: InputDecoration(
+                  hintText: 'Email address',
+                ),
+              ),
             ],
           ),
         ),
