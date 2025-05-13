@@ -142,6 +142,10 @@ class SignUpScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10),
                     borderSide: BorderSide.none,
                   ),
+                  suffixIcon: Icon(
+                    Icons.visibility_off,
+                    color: txtBlueGrey,
+                  ),
                 ),
               ),
             ],
