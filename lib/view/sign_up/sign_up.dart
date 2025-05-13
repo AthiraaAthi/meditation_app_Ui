@@ -133,6 +133,8 @@ class SignUpScreen extends StatelessWidget {
                   hintStyle: TextStyle(color: Colors.grey),
                   filled: true,
                   fillColor: textfieldFill,
+                  contentPadding:
+                      EdgeInsets.symmetric(vertical: 16.0, horizontal: 20.0),
                 ),
               ),
             ],
