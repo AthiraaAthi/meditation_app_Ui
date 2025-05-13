@@ -130,6 +130,7 @@ class SignUpScreen extends StatelessWidget {
               TextField(
                 decoration: InputDecoration(
                   hintText: 'Password',
+                  hintStyle: TextStyle(color: Colors.grey),
                 ),
               ),
             ],
