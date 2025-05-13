@@ -132,6 +132,7 @@ class SignUpScreen extends StatelessWidget {
                   hintText: 'Password',
                   hintStyle: TextStyle(color: Colors.grey),
                   filled: true,
+                  fillColor: textfieldFill,
                 ),
               ),
             ],
