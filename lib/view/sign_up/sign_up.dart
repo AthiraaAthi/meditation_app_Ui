@@ -2,9 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
 import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
 
-class SignUpScreen extends StatelessWidget {
+class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});
 
+  @override
+  State<SignUpScreen> createState() => _SignUpScreenState();
+}
+
+class _SignUpScreenState extends State<SignUpScreen> {
+  bool isChecked = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
