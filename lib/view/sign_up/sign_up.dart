@@ -127,6 +127,9 @@ class SignUpScreen extends StatelessWidget {
                   ),
                 ),
               ),
+              SizedBox(
+                height: 15,
+              ),
               TextField(
                 decoration: InputDecoration(
                   hintText: 'Password',
