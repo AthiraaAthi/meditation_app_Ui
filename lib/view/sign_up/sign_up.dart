@@ -171,7 +171,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             fontSize: 14,
                           ),
                           children: [
-                            TextSpan(),
+                            TextSpan(
+                              text: 'Privacy Policy',
+                            ),
                           ],
                         ),
                       ),
