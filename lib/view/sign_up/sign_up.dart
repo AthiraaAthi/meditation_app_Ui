@@ -161,7 +161,16 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 ),
                 Row(
                   mainAxisSize: MainAxisSize.min,
-                  children: [],
+                  children: [
+                    Checkbox(
+                      value: isChecked,
+                      onChanged: (bool? newValue) {
+                        setState(() {
+                          isChecked = newValue ?? false;
+                        });
+                      },
+                    ),
+                  ],
                 )
               ],
             ),
