@@ -170,6 +170,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             color: Colors.black,
                             fontSize: 14,
                           ),
+                          children: [],
                         ),
                       ),
                     ),
