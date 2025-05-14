@@ -202,6 +202,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     color: defBlue,
                     borderRadius: BorderRadius.circular(30),
                   ),
+                  child: Center(),
                 ),
               ],
             ),
