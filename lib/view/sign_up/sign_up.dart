@@ -175,6 +175,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               text: 'Privacy Policy',
                               style: const TextStyle(
                                 color: defBlue,
+                                fontWeight: FontWeight.w500,
                               ),
                             ),
                           ],
