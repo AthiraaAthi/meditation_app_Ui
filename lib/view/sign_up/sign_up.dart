@@ -168,6 +168,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           text: 'i have read the ',
                           style: const TextStyle(
                             color: Colors.black,
+                            fontSize: 14,
                           ),
                         ),
                       ),
