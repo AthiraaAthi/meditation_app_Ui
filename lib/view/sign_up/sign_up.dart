@@ -166,7 +166,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       child: RichText(
                         text: TextSpan(
                           text: 'i have read the ',
-                          style: const TextStyle(),
+                          style: const TextStyle(
+                            color: Colors.black,
+                          ),
                         ),
                       ),
                     ),
