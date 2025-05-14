@@ -162,6 +162,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
+                    Expanded(
+                      child: RichText(
+                        text: TextSpan(
+                          text: 'i have read the ',
+                        ),
+                      ),
+                    ),
                     Checkbox(
                       value: isChecked,
                       onChanged: (bool? newValue) {
