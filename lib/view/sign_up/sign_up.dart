@@ -173,7 +173,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           children: [
                             TextSpan(
                               text: 'Privacy Policy',
-                              style: const TextStyle(),
+                              style: const TextStyle(
+                                color: defBlue,
+                              ),
                             ),
                           ],
                         ),
