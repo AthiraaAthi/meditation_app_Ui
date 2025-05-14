@@ -198,6 +198,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 Container(
                   height: 50,
                   width: 350,
+                  decoration: BoxDecoration(
+                    color: defBlue,
+                    borderRadius: BorderRadius.circular(30),
+                  ),
                 ),
               ],
             ),
