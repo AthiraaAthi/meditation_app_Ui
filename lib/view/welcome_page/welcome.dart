@@ -10,7 +10,11 @@ class WelcomeScreen extends StatelessWidget {
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [],
+            children: [
+              const Text(
+                "Silent",
+              ),
+            ],
           ),
         ],
       ),
