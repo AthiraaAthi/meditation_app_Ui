@@ -13,6 +13,9 @@ class WelcomeScreen extends StatelessWidget {
             children: [
               const Text(
                 "Silent",
+                style: TextStyle(
+                  fontSize: 18,
+                ),
               ),
             ],
           ),
