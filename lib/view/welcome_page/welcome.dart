@@ -7,7 +7,12 @@ class WelcomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: [],
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [],
+          ),
+        ],
       ),
     );
   }
