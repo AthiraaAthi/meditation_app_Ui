@@ -208,6 +208,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 16,
+                        color: white,
                       ),
                     ),
                   ),
