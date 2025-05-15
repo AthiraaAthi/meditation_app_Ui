@@ -195,21 +195,23 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 SizedBox(
                   height: 25,
                 ),
-                Container(
-                  height: 50,
-                  width: 350,
-                  decoration: BoxDecoration(
-                    color: defBlue,
-                    borderRadius: BorderRadius.circular(30),
-                  ),
-                  child: Center(
-                    child: Text(
-                      "GET STARTED",
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        fontSize: 16,
-                        color: white,
-                        fontWeight: FontWeight.w400,
+                InkWell(
+                  child: Container(
+                    height: 50,
+                    width: 350,
+                    decoration: BoxDecoration(
+                      color: defBlue,
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                    child: Center(
+                      child: Text(
+                        "GET STARTED",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontSize: 16,
+                          color: white,
+                          fontWeight: FontWeight.w400,
+                        ),
                       ),
                     ),
                   ),
