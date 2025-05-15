@@ -22,6 +22,7 @@ class WelcomeScreen extends StatelessWidget {
                       letterSpacing: 4,
                       color: white),
                 ),
+                const SizedBox(width: 5),
               ],
             ),
           ],
