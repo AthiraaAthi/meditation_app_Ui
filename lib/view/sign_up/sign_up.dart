@@ -206,6 +206,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     child: Text(
                       "GET STARTED",
                       textAlign: TextAlign.center,
+                      style: TextStyle(),
                     ),
                   ),
                 ),
