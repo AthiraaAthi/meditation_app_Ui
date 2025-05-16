@@ -50,7 +50,8 @@ class WelcomeScreen extends StatelessWidget {
                 "Hello There, Welcome",
                 style: TextStyle(
                     fontSize: 25, color: white, fontWeight: FontWeight.w800),
-              )
+              ),
+              Text("Silent Moon")
             ],
           ),
         ),
