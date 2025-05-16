@@ -29,7 +29,11 @@ class WelcomeScreen extends StatelessWidget {
                   Container(
                     height: 20,
                     width: 20,
-                    decoration: BoxDecoration(),
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage(blueMoonIcon),
+                      ),
+                    ),
                   ),
                 ],
               ),
