@@ -40,6 +40,7 @@ class WelcomeScreen extends StatelessWidget {
                     "Moon",
                     style: TextStyle(
                       fontSize: 18,
+                      fontWeight: FontWeight.w500,
                     ),
                   ),
                 ],
