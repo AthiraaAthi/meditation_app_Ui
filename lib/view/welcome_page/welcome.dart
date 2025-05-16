@@ -46,7 +46,10 @@ class WelcomeScreen extends StatelessWidget {
                   ),
                 ],
               ),
-              Text("Hello There, Welcome")
+              Text(
+                "Hello There, Welcome",
+                style: TextStyle(fontSize: 24),
+              )
             ],
           ),
         ),
