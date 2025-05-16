@@ -46,6 +46,7 @@ class WelcomeScreen extends StatelessWidget {
                   ),
                 ],
               ),
+              Text("Hello There, Welcome")
             ],
           ),
         ),
