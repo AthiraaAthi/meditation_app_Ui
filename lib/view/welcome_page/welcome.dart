@@ -39,10 +39,10 @@ class WelcomeScreen extends StatelessWidget {
                   Text(
                     "Moon",
                     style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.w500,
-                      letterSpacing: 4,
-                    ),
+                        fontSize: 18,
+                        fontWeight: FontWeight.w500,
+                        letterSpacing: 4,
+                        color: white),
                   ),
                 ],
               ),
