@@ -38,6 +38,7 @@ class WelcomeScreen extends StatelessWidget {
                   SizedBox(width: 5),
                   Text(
                     "Moon",
+                    style: TextStyle(),
                   ),
                 ],
               ),
