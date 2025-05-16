@@ -7,4 +7,4 @@ const Color txtBlueGrey = Color(0xFFA1A4B2);
 const Color purple = Color(0xFF17583CA);
 const Color textfieldFill = Color(0xF5F6F9FF);
 const Color welcomeBlue = Color(0xFF8C96FF);
-const Color welcomeBg = Color(0xFF8589EB);
+const Color welcomeBg = Color(0xFF9094fc);
