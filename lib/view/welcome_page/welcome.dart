@@ -67,7 +67,11 @@ class WelcomeScreen extends StatelessWidget {
               ),
               Text(
                 "Explore the app, Find some peace of mind to \n prepare for medication ",
-                style: TextStyle(color: white, fontSize: 16),
+                style: TextStyle(
+                  color: white,
+                  fontSize: 16,
+                  fontWeight: FontWeight.w500,
+                ),
               )
             ],
           ),
