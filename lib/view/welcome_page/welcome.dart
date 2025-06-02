@@ -80,6 +80,10 @@ class WelcomeScreen extends StatelessWidget {
                 height: 300,
                 decoration: BoxDecoration(
                   color: Colors.deepPurple.shade100,
+                  image: DecorationImage(
+                    image: AssetImage(welcomeImage),
+                    fit: BoxFit.cover,
+                  ),
                 ),
               )
             ],
