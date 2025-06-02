@@ -46,19 +46,21 @@ class WelcomeScreen extends StatelessWidget {
                   ),
                 ],
               ),
+              SizedBox(
+                height: 50,
+              ),
               Text(
                 "Hello There, Welcome",
                 style: TextStyle(
                   fontSize: 25,
                   color: white,
-                  fontWeight: FontWeight.w800,
+                  fontWeight: FontWeight.w900,
                 ),
               ),
               Text("To Silent Moon",
                   style: TextStyle(
                     fontSize: 25,
                     color: white,
-                    fontWeight: FontWeight.w800,
                   )),
             ],
           ),
