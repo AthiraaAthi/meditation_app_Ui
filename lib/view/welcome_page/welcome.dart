@@ -78,6 +78,7 @@ class WelcomeScreen extends StatelessWidget {
               ),
               Container(
                 height: 300,
+                color: Colors.deepPurple.shade100,
               )
             ],
           ),
