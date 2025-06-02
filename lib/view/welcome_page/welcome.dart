@@ -62,6 +62,7 @@ class WelcomeScreen extends StatelessWidget {
                     fontSize: 25,
                     color: white,
                   )),
+              SizedBox()
             ],
           ),
         ),
