@@ -76,7 +76,9 @@ class WelcomeScreen extends StatelessWidget {
               SizedBox(
                 height: 25,
               ),
-              Container()
+              Container(
+                height: 300,
+              )
             ],
           ),
         ),
