@@ -65,7 +65,8 @@ class WelcomeScreen extends StatelessWidget {
               SizedBox(
                 height: 20,
               ),
-              Text("")
+              Text(
+                  "Explore the app, Find some peace of mind to \n prepare for medication ")
             ],
           ),
         ),
