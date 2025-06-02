@@ -85,6 +85,9 @@ class WelcomeScreen extends StatelessWidget {
                     fit: BoxFit.cover,
                   ),
                 ),
+              ),
+              SizedBox(
+                height: 20,
               )
             ],
           ),
