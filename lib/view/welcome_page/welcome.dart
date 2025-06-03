@@ -96,7 +96,11 @@ class WelcomeScreen extends StatelessWidget {
                   color: Color(0xffEBEAEC),
                   borderRadius: BorderRadius.circular(30),
                 ),
-                child: Center(),
+                child: Center(
+                  child: Text(
+                    "GET STARTED",
+                  ),
+                ),
               ),
             ],
           ),
