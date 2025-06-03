@@ -89,21 +89,23 @@ class WelcomeScreen extends StatelessWidget {
               SizedBox(
                 height: 50,
               ),
-              Container(
-                height: 50,
-                width: 350,
-                decoration: BoxDecoration(
-                  color: Color(0xffEBEAEC),
-                  borderRadius: BorderRadius.circular(30),
-                ),
-                child: Center(
-                  child: Text(
-                    "GET STARTED",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      fontSize: 16,
-                      color: black,
-                      fontWeight: FontWeight.w400,
+              InkWell(
+                child: Container(
+                  height: 50,
+                  width: 350,
+                  decoration: BoxDecoration(
+                    color: Color(0xffEBEAEC),
+                    borderRadius: BorderRadius.circular(30),
+                  ),
+                  child: Center(
+                    child: Text(
+                      "GET STARTED",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 16,
+                        color: black,
+                        fontWeight: FontWeight.w400,
+                      ),
                     ),
                   ),
                 ),
