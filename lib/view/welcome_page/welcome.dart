@@ -102,6 +102,7 @@ class WelcomeScreen extends StatelessWidget {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 16,
+                      color: black,
                     ),
                   ),
                 ),
