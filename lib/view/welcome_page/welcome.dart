@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
 import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
+import 'package:meditation_app_ui/view/choose_topic/topic_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -90,7 +91,13 @@ class WelcomeScreen extends StatelessWidget {
                 height: 50,
               ),
               InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => TopicSelectionScreen(),
+                      ));
+                },
                 child: Container(
                   height: 50,
                   width: 350,
