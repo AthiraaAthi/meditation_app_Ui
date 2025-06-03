@@ -90,6 +90,7 @@ class WelcomeScreen extends StatelessWidget {
                 height: 50,
               ),
               InkWell(
+                onTap: () {},
                 child: Container(
                   height: 50,
                   width: 350,
