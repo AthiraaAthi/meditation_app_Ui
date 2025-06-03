@@ -92,7 +92,10 @@ class WelcomeScreen extends StatelessWidget {
               Container(
                 height: 50,
                 width: 350,
-                decoration: BoxDecoration(),
+                decoration: BoxDecoration(
+                  color: Color(0xffEBEAEC),
+                  borderRadius: BorderRadius.circular(30),
+                ),
               ),
             ],
           ),
