@@ -100,6 +100,7 @@ class WelcomeScreen extends StatelessWidget {
                   child: Text(
                     "GET STARTED",
                     textAlign: TextAlign.center,
+                    style: TextStyle(),
                   ),
                 ),
               ),
