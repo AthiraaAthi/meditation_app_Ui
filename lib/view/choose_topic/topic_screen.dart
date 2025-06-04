@@ -29,6 +29,7 @@ class TopicSelectionScreen extends StatelessWidget {
               fontWeight: FontWeight.normal,
             ),
           ),
+          SizedBox(height: 8),
         ],
       ),
     );
