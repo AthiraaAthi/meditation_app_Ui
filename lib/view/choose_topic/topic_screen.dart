@@ -31,6 +31,9 @@ class TopicSelectionScreen extends StatelessWidget {
             ),
           ),
           SizedBox(height: 8),
+          Text(
+            'choose a topic to focus on:',
+          )
         ],
       ),
     );
