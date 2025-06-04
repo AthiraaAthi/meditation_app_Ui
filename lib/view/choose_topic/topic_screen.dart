@@ -14,6 +14,7 @@ class TopicSelectionScreen extends StatelessWidget {
         ),
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Text(
             'What Brings you',
