@@ -24,6 +24,7 @@ class TopicSelectionScreen extends StatelessWidget {
           ),
           Text(
             'to Silent Moon?',
+            style: TextStyle(),
           ),
         ],
       ),
