@@ -19,6 +19,7 @@ class TopicSelectionScreen extends StatelessWidget {
             'What Brings you',
             style: TextStyle(
               fontSize: 24,
+              fontWeight: FontWeight.bold,
             ),
           ),
         ],
