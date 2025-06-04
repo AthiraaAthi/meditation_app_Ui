@@ -17,6 +17,7 @@ class TopicSelectionScreen extends StatelessWidget {
         children: [
           Text(
             'What Brings you',
+            style: TextStyle(),
           ),
         ],
       ),
