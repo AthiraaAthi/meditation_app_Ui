@@ -35,6 +35,7 @@ class TopicSelectionScreen extends StatelessWidget {
             'choose a topic to focus on:',
             style: TextStyle(
               fontSize: 16,
+              color: Colors.grey[600],
             ),
           )
         ],
