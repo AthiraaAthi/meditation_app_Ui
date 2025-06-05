@@ -56,7 +56,9 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
                 shrinkWrap: true,
                 physics: NeverScrollableScrollPhysics(),
                 itemBuilder: (context, index) {
-                  return Container();
+                  return Container(
+                    decoration: BoxDecoration(),
+                  );
                 },
               ),
             ],
