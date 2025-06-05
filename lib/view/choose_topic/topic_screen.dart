@@ -53,6 +53,8 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
                 mainAxisSpacing: 16,
                 crossAxisSpacing: 16,
                 itemCount: 6, // Number of topics
+                shrinkWrap: true,
+
                 itemBuilder: (context, index) {
                   return Container();
                 },
