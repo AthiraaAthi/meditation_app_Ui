@@ -57,7 +57,10 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
                 physics: NeverScrollableScrollPhysics(),
                 itemBuilder: (context, index) {
                   return Container(
-                    decoration: BoxDecoration(),
+                    decoration: BoxDecoration(
+                      color: Colors.grey[200],
+                      borderRadius: BorderRadius.circular(16),
+                    ),
                   );
                 },
               ),
