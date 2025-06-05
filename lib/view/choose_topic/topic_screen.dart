@@ -40,7 +40,8 @@ class TopicSelectionScreen extends StatelessWidget {
                   fontSize: 16,
                   color: Colors.grey[600],
                 ),
-              )
+              ),
+              SizedBox(height: 20),
             ],
           ),
         ),
