@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
 
-class TopicSelectionScreen extends StatelessWidget {
+class TopicSelectionScreen extends StatefulWidget {
   const TopicSelectionScreen({super.key});
 
+  @override
+  State<TopicSelectionScreen> createState() => _TopicSelectionScreenState();
+}
+
+class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
