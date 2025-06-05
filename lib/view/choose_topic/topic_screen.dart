@@ -10,6 +10,7 @@ class TopicSelectionScreen extends StatefulWidget {
 }
 
 class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
+  List<String> images = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -58,7 +59,7 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
                 itemBuilder: (context, index) {
                   return Container(
                     decoration: BoxDecoration(
-                      color: Colors.grey[200],
+                      color: Colors.black,
                       borderRadius: BorderRadius.circular(16),
                     ),
                   );
