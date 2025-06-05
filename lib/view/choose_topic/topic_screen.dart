@@ -48,6 +48,12 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
                 ),
               ),
               SizedBox(height: 20),
+              MasonryGridView.count(
+                crossAxisCount: 2,
+                itemBuilder: (context, index) {
+                  return Container();
+                },
+              ),
             ],
           ),
         ),
