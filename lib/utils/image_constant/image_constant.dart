@@ -6,3 +6,4 @@ const String welcomeImage = "assets/images/welcome_img.png";
 const String betterSleep = "assets/images/better_sleep.png";
 const String improveperfo = "assets/images/imprv_perfo.png";
 const String increaseHappiness = "assets/images/incrse_hppiness.png";
+const String personalGrowth = "assets/images/prsnl_grwth.png";
