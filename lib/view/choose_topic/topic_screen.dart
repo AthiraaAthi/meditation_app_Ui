@@ -15,6 +15,7 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
     reduceStress,
     improveperfo,
     increaseHappiness,
+    reduceAnxiety,
   ];
   @override
   Widget build(BuildContext context) {
