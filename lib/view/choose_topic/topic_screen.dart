@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
+import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
 
 class TopicSelectionScreen extends StatefulWidget {
   const TopicSelectionScreen({super.key});
@@ -10,7 +11,9 @@ class TopicSelectionScreen extends StatefulWidget {
 }
 
 class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
-  List<String> images = [];
+  List<String> images = [
+    reduceStress,
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
