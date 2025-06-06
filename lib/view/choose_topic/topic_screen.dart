@@ -14,6 +14,7 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
   List<String> images = [
     reduceStress,
     improveperfo,
+    increaseHappiness,
   ];
   @override
   Widget build(BuildContext context) {
