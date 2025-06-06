@@ -72,6 +72,10 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
                     ),
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(16),
+                      child: Image.asset(
+                        images[index],
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   );
                 },
