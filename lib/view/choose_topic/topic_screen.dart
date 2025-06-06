@@ -13,6 +13,7 @@ class TopicSelectionScreen extends StatefulWidget {
 class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
   List<String> images = [
     reduceStress,
+    improveperfo,
   ];
   @override
   Widget build(BuildContext context) {
