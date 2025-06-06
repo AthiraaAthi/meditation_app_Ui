@@ -70,6 +70,7 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
                       color: Colors.black,
                       borderRadius: BorderRadius.circular(16),
                     ),
+                    child: ClipRRect(),
                   );
                 },
               ),
