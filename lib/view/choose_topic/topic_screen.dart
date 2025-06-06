@@ -62,7 +62,7 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
                   crossAxisCount: 2,
                   mainAxisSpacing: 16,
                   crossAxisSpacing: 16,
-                  itemCount: 6, // Number of topics
+                  itemCount: images.length,
                   shrinkWrap: true,
                   physics: NeverScrollableScrollPhysics(),
                   itemBuilder: (context, index) {
