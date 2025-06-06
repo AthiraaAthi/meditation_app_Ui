@@ -7,3 +7,4 @@ const String betterSleep = "assets/images/better_sleep.png";
 const String improveperfo = "assets/images/imprv_perfo.png";
 const String increaseHappiness = "assets/images/incrse_hppiness.png";
 const String personalGrowth = "assets/images/prsnl_grwth.png";
+const String reduceAnxiety = "assets/images/reduce_anxiety.png";
