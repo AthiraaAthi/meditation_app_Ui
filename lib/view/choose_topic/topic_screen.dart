@@ -22,15 +22,10 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        leading: Icon(
-          Icons.arrow_back,
-          color: white,
-        ),
-      ),
+      backgroundColor: white,
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 16.0),
+          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 50.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
@@ -63,8 +58,6 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
                   mainAxisSpacing: 16,
                   crossAxisSpacing: 16,
                   itemCount: images.length,
-                  shrinkWrap: true,
-                  physics: NeverScrollableScrollPhysics(),
                   itemBuilder: (context, index) {
                     return Container(
                       decoration: BoxDecoration(
