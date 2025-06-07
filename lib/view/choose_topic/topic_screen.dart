@@ -60,6 +60,7 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
                   itemCount: images.length,
                   itemBuilder: (context, index) {
                     return InkWell(
+                      onTap: () {},
                       child: Container(
                         decoration: BoxDecoration(
                           color: Colors.black,
