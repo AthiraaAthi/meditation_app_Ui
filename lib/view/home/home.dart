@@ -14,6 +14,8 @@ class HomeScreen extends StatelessWidget {
             "Silent",
             style: TextStyle(
               fontSize: 18,
+              fontWeight: FontWeight.w500,
+              letterSpacing: 4,
             ),
           ),
         ],
