@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
 import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
+import 'package:meditation_app_ui/view/home/home.dart';
 
 class TopicSelectionScreen extends StatefulWidget {
   const TopicSelectionScreen({super.key});
@@ -60,7 +61,13 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
                   itemCount: images.length,
                   itemBuilder: (context, index) {
                     return InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => HomeScreen(),
+                            ));
+                      },
                       child: Container(
                         decoration: BoxDecoration(
                           color: Colors.black,
