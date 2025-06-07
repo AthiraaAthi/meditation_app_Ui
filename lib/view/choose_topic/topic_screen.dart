@@ -59,16 +59,18 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
                   crossAxisSpacing: 16,
                   itemCount: images.length,
                   itemBuilder: (context, index) {
-                    return Container(
-                      decoration: BoxDecoration(
-                        color: Colors.black,
-                        borderRadius: BorderRadius.circular(16),
-                      ),
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(16),
-                        child: Image.asset(
-                          images[index],
-                          fit: BoxFit.cover,
+                    return InkWell(
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Colors.black,
+                          borderRadius: BorderRadius.circular(16),
+                        ),
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(16),
+                          child: Image.asset(
+                            images[index],
+                            fit: BoxFit.cover,
+                          ),
                         ),
                       ),
                     );
