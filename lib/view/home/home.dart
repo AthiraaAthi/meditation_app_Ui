@@ -12,6 +12,7 @@ class HomeScreen extends StatelessWidget {
         children: [
           const Text(
             "Silent",
+            style: TextStyle(),
           ),
         ],
       ),
