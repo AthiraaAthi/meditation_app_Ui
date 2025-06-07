@@ -18,6 +18,7 @@ class HomeScreen extends StatelessWidget {
               letterSpacing: 4,
             ),
           ),
+          const SizedBox(width: 5),
         ],
       ),
     );
