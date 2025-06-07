@@ -22,6 +22,11 @@ class HomeScreen extends StatelessWidget {
           Container(
             height: 20,
             width: 20,
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage(blueMoonIcon),
+              ),
+            ),
           ),
         ],
       ),
