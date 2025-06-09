@@ -40,6 +40,7 @@ class HomeScreen extends StatelessWidget {
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w500,
+                letterSpacing: 4,
               ),
             ),
           ],
