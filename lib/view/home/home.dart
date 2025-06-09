@@ -7,28 +7,35 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          const Text(
-            "Silent",
-            style: TextStyle(
-              fontSize: 18,
-              fontWeight: FontWeight.w500,
-              letterSpacing: 4,
+      body: SafeArea(
+        child: Column(
+          children: [
+            SizedBox(height: 20),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Text(
+                  "Silent",
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w500,
+                    letterSpacing: 4,
+                  ),
+                ),
+                const SizedBox(width: 5),
+                Container(
+                  height: 20,
+                  width: 20,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      image: AssetImage(blueMoonIcon),
+                    ),
+                  ),
+                ),
+              ],
             ),
-          ),
-          const SizedBox(width: 5),
-          Container(
-            height: 20,
-            width: 20,
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage(blueMoonIcon),
-              ),
-            ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
