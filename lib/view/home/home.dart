@@ -8,50 +8,57 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(
-          children: [
-            SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                const Text(
-                  "Silent",
-                  style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w500,
-                    letterSpacing: 4,
-                  ),
-                ),
-                const SizedBox(width: 5),
-                Container(
-                  height: 20,
-                  width: 20,
-                  decoration: BoxDecoration(
-                    image: DecorationImage(
-                      image: AssetImage(blueMoonIcon),
+        child: Padding(
+          padding: const EdgeInsets.all(15),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text(
+                    "Silent",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w500,
+                      letterSpacing: 4,
                     ),
                   ),
-                ),
-                const SizedBox(width: 5),
-                const Text(
-                  "Moon",
-                  style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w500,
-                    letterSpacing: 4,
+                  const SizedBox(width: 5),
+                  Container(
+                    height: 20,
+                    width: 20,
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage(blueMoonIcon),
+                      ),
+                    ),
                   ),
-                ),
-              ],
-            ),
-            SizedBox(
-              height: 40,
-            ),
-            Text("Good Morning, Alex",
-                style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                )),
-          ],
+                  const SizedBox(width: 5),
+                  const Text(
+                    "Moon",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w500,
+                      letterSpacing: 4,
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(
+                height: 40,
+              ),
+              Text("Good Morning, Alex",
+                  style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                  )),
+              Text(
+                "We Wish You Have A Good Day",
+              )
+            ],
+          ),
         ),
       ),
     );
