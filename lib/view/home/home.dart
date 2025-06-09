@@ -32,21 +32,20 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                 ),
+                const SizedBox(width: 5),
+                const Text(
+                  "Moon",
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w500,
+                    letterSpacing: 4,
+                  ),
+                ),
               ],
-            ),
-            const SizedBox(width: 5),
-            const Text(
-              "Moon",
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.w500,
-                letterSpacing: 4,
-              ),
             ),
             SizedBox(
               height: 50,
             ),
-            Text("")
           ],
         ),
       ),
