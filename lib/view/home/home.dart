@@ -34,6 +34,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ],
             ),
+            const SizedBox(width: 5),
           ],
         ),
       ),
