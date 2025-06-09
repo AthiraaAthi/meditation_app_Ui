@@ -37,7 +37,9 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(width: 5),
             const Text(
               "Moon",
-              style: TextStyle(),
+              style: TextStyle(
+                fontSize: 18,
+              ),
             ),
           ],
         ),
