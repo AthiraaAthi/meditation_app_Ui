@@ -56,6 +56,9 @@ class HomeScreen extends StatelessWidget {
                   )),
               Text(
                 "We Wish You Have A Good Day",
+                style: TextStyle(
+                  fontSize: 16,
+                ),
               )
             ],
           ),
