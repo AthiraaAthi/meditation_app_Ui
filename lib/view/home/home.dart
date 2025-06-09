@@ -46,7 +46,10 @@ class HomeScreen extends StatelessWidget {
             SizedBox(
               height: 50,
             ),
-            Text("Good Morning, Alex", style: TextStyle()),
+            Text("Good Morning, Alex",
+                style: TextStyle(
+                  fontSize: 24,
+                )),
           ],
         ),
       ),
