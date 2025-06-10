@@ -69,18 +69,23 @@ class HomeScreen extends StatelessWidget {
                 width: 180,
                 decoration: BoxDecoration(
                     image: DecorationImage(image: AssetImage(basics))),
-                child: Stack(
-                  alignment: Alignment.bottomRight,
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
-                    Container(
-                      height: 40,
-                      width: 80,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Center(child: Text("Start")),
-                    )
+                    Stack(
+                      alignment: Alignment.bottomRight,
+                      children: [
+                        Container(
+                          height: 40,
+                          width: 80,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          child: Center(child: Text("Start")),
+                        )
+                      ],
+                    ),
                   ],
                 ),
               )
