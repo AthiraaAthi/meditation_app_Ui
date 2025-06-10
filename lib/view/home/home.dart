@@ -69,25 +69,34 @@ class HomeScreen extends StatelessWidget {
                 width: 180,
                 decoration: BoxDecoration(
                     image: DecorationImage(image: AssetImage(basics))),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.end,
-                  children: [
-                    Text("3-10 MIN"),
-                    Stack(
-                      alignment: Alignment.bottomRight,
-                      children: [
-                        Container(
-                          height: 40,
-                          width: 80,
-                          decoration: BoxDecoration(
+                child: Padding(
+                  padding: const EdgeInsets.all(12),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text("3-10 MIN",
+                          style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w500,
                             color: Colors.white,
-                            borderRadius: BorderRadius.circular(20),
-                          ),
-                          child: Center(child: Text("Start")),
-                        )
-                      ],
-                    ),
-                  ],
+                          )),
+                      Stack(
+                        alignment: Alignment.bottomRight,
+                        children: [
+                          Container(
+                            height: 40,
+                            width: 80,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(20),
+                            ),
+                            child: Center(child: Text("Start")),
+                          )
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
               )
             ],
