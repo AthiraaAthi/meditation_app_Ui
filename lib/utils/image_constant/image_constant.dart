@@ -9,3 +9,5 @@ const String increaseHappiness = "assets/images/incrse_hppiness.png";
 const String personalGrowth = "assets/images/prsnl_grwth.png";
 const String reduceAnxiety = "assets/images/reduce_anxiety.png";
 const String reduceStress = "assets/images/reduce_stress.png";
+const String basics = "assets/images/basics.png";
+const String relaxation = "assets/images/relaxation.png";
