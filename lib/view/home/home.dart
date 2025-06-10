@@ -60,6 +60,9 @@ class HomeScreen extends StatelessWidget {
                   fontSize: 16,
                   color: Color(0xFFA1A4B2),
                 ),
+              ),
+              SizedBox(
+                height: 20,
               )
             ],
           ),
