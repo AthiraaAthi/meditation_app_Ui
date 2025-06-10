@@ -72,6 +72,7 @@ class HomeScreen extends StatelessWidget {
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
+                    Text("3-10 MIN"),
                     Stack(
                       alignment: Alignment.bottomRight,
                       children: [
