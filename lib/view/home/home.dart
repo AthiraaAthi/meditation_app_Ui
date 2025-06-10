@@ -70,22 +70,26 @@ class HomeScreen extends StatelessWidget {
                 decoration: BoxDecoration(
                     image: DecorationImage(image: AssetImage(basics))),
                 child: Padding(
-                  padding: const EdgeInsets.all(12),
+                  padding:
+                      const EdgeInsets.only(bottom: 20, left: 10, right: 10),
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.end,
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("3-10 MIN",
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w500,
-                            color: Colors.white,
-                          )),
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 5),
+                        child: Text("3-10 MIN",
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w500,
+                              color: Colors.white,
+                            )),
+                      ),
                       Stack(
                         alignment: Alignment.bottomRight,
                         children: [
                           Container(
-                            height: 40,
+                            height: 35,
                             width: 80,
                             decoration: BoxDecoration(
                               color: Colors.white,
