@@ -79,7 +79,7 @@ class HomeScreen extends StatelessWidget {
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(20),
                       ),
-                      child: Text("Start"),
+                      child: Center(child: Text("Start")),
                     )
                   ],
                 ),
