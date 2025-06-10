@@ -70,7 +70,12 @@ class HomeScreen extends StatelessWidget {
                 decoration: BoxDecoration(
                     image: DecorationImage(image: AssetImage(basics))),
                 child: Stack(
-                  children: [],
+                  children: [
+                    Container(
+                      height: 40,
+                      width: 80,
+                    )
+                  ],
                 ),
               )
             ],
