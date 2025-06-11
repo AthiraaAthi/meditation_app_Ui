@@ -25,6 +25,9 @@ class _NavScreenState extends State<NavScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: screens[_currentIndex],
+      bottomNavigationBar: BottomNavigationBar(
+        items: [],
+      ),
     );
   }
 }
