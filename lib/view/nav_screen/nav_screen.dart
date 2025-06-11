@@ -8,6 +8,7 @@ class NavScreen extends StatefulWidget {
 }
 
 class _NavScreenState extends State<NavScreen> {
+  final List<Widget> screens = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold();
