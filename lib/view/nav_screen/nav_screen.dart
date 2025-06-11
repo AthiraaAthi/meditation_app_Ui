@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meditation_app_ui/view/home/home.dart';
 
 class NavScreen extends StatefulWidget {
   const NavScreen({super.key});
@@ -8,7 +9,9 @@ class NavScreen extends StatefulWidget {
 }
 
 class _NavScreenState extends State<NavScreen> {
-  final List<Widget> screens = [];
+  final List<Widget> screens = [
+    HomeScreen(),
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold();
