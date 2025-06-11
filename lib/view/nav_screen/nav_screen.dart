@@ -13,7 +13,8 @@ class NavScreen extends StatefulWidget {
 }
 
 class _NavScreenState extends State<NavScreen> {
-  final List<Widget> screens = [
+  final int _currentIndex = 0;
+  List<Widget> screens = [
     HomeScreen(),
     SleepScreen(),
     MedidateScreen(),
@@ -22,6 +23,8 @@ class _NavScreenState extends State<NavScreen> {
   ];
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: screens[_currentIndex],
+    );
   }
 }
