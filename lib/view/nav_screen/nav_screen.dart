@@ -26,7 +26,12 @@ class _NavScreenState extends State<NavScreen> {
     return Scaffold(
       body: screens[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
-        items: [],
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home_outlined),
+            label: 'Home',
+          ),
+        ],
       ),
     );
   }
