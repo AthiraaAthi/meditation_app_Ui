@@ -53,11 +53,14 @@ class _NavScreenState extends State<NavScreen> {
             label: 'Meditate',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.music_note_outlined),
+            icon: Icon(_currentIndex == 3
+                ? Icons.music_note
+                : Icons.music_note_outlined),
             label: 'Music',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person_2_outlined),
+            icon: Icon(
+                _currentIndex == 4 ? Icons.person_2 : Icons.person_2_outlined),
             label: 'Profile',
           ),
         ],
