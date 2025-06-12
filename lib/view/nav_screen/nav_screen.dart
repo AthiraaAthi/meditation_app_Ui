@@ -13,7 +13,7 @@ class NavScreen extends StatefulWidget {
 }
 
 class _NavScreenState extends State<NavScreen> {
-  final int _currentIndex = 0;
+  int _currentIndex = 0;
   List<Widget> screens = [
     HomeScreen(),
     SleepScreen(),
@@ -27,6 +27,7 @@ class _NavScreenState extends State<NavScreen> {
       body: screens[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
+        selectedItemColor: Colors.deepPurple,
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.home_outlined),
