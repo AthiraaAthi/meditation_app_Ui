@@ -31,6 +31,9 @@ class _NavScreenState extends State<NavScreen> {
             icon: Icon(Icons.home_outlined),
             label: 'Home',
           ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.nightlight_round),
+          ),
         ],
       ),
     );
