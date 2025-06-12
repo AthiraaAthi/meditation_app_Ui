@@ -39,6 +39,10 @@ class _NavScreenState extends State<NavScreen> {
             icon: Icon(Icons.self_improvement_outlined),
             label: 'Meditate',
           ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.music_note_outlined),
+            label: 'Music',
+          ),
         ],
       ),
     );
