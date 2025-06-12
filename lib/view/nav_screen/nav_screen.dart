@@ -32,11 +32,11 @@ class _NavScreenState extends State<NavScreen> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.nightlight_round),
+            icon: Icon(Icons.nightlight_round_outlined),
             label: 'Sleep',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.self_improvement),
+            icon: Icon(Icons.self_improvement_outlined),
             label: 'Meditate',
           ),
         ],
