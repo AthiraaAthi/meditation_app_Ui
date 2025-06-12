@@ -41,7 +41,9 @@ class _NavScreenState extends State<NavScreen> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.nightlight_round_outlined),
+            icon: Icon(_currentIndex == 1
+                ? Icons.nightlight_round
+                : Icons.nightlight_round_outlined),
             label: 'Sleep',
           ),
           BottomNavigationBarItem(
