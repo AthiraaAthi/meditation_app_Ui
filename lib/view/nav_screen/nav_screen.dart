@@ -47,7 +47,9 @@ class _NavScreenState extends State<NavScreen> {
             label: 'Sleep',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.self_improvement_outlined),
+            icon: Icon(_currentIndex == 2
+                ? Icons.self_improvement
+                : Icons.self_improvement_outlined),
             label: 'Meditate',
           ),
           BottomNavigationBarItem(
