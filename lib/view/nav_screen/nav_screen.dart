@@ -33,6 +33,7 @@ class _NavScreenState extends State<NavScreen> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.nightlight_round),
+            label: 'Sleep',
           ),
         ],
       ),
