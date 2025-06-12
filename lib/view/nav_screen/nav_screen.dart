@@ -37,7 +37,7 @@ class _NavScreenState extends State<NavScreen> {
         type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home_outlined),
+            icon: Icon(_currentIndex == 0 ? Icons.home : Icons.home_outlined),
             label: 'Home',
           ),
           BottomNavigationBarItem(
