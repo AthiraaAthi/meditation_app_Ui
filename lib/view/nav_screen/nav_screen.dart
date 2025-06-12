@@ -43,6 +43,9 @@ class _NavScreenState extends State<NavScreen> {
             icon: Icon(Icons.music_note_outlined),
             label: 'Music',
           ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.person_2_outlined),
+          ),
         ],
       ),
     );
