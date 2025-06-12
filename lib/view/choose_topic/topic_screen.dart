@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
 import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
-import 'package:meditation_app_ui/view/home/home.dart';
+import 'package:meditation_app_ui/view/nav_screen/nav_screen.dart';
 
 class TopicSelectionScreen extends StatefulWidget {
   const TopicSelectionScreen({super.key});
@@ -65,7 +65,7 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => HomeScreen(),
+                              builder: (context) => NavScreen(),
                             ));
                       },
                       child: Container(
