@@ -45,6 +45,7 @@ class _NavScreenState extends State<NavScreen> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person_2_outlined),
+            label: 'Profile',
           ),
         ],
       ),
