@@ -34,6 +34,7 @@ class _NavScreenState extends State<NavScreen> {
             _currentIndex = index;
           });
         },
+        type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.home_outlined),
