@@ -128,21 +128,24 @@ class SignInScreen extends StatelessWidget {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                height: 50,
-                width: 350,
-                decoration: BoxDecoration(
-                  color: defBlue,
-                  borderRadius: BorderRadius.circular(30),
-                ),
-                child: Center(
-                  child: Text(
-                    "LOG IN",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      fontSize: 16,
-                      color: white,
-                      fontWeight: FontWeight.w400,
+              InkWell(
+                onTap: () {},
+                child: Container(
+                  height: 50,
+                  width: 350,
+                  decoration: BoxDecoration(
+                    color: defBlue,
+                    borderRadius: BorderRadius.circular(30),
+                  ),
+                  child: Center(
+                    child: Text(
+                      "LOG IN",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 16,
+                        color: white,
+                        fontWeight: FontWeight.w400,
+                      ),
                     ),
                   ),
                 ),
