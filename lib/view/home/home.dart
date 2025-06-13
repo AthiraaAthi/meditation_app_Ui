@@ -113,6 +113,9 @@ class HomeScreen extends StatelessWidget {
                         image: DecorationImage(image: AssetImage(relaxation))),
                   )
                 ],
+              ),
+              SizedBox(
+                height: 20,
               )
             ],
           ),
