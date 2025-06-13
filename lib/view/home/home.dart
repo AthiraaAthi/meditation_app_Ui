@@ -101,6 +101,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                       Container(
                         height: 220,
+                        width: 180,
                       )
                     ],
                   ),
