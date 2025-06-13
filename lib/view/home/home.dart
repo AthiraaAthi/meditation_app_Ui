@@ -64,51 +64,48 @@ class HomeScreen extends StatelessWidget {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                height: 220,
-                width: 180,
-                decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(basics))),
-                child: Padding(
-                  padding:
-                      const EdgeInsets.only(bottom: 20, left: 10, right: 10),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.end,
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: 5),
-                        child: Text("3-10 MIN",
-                            style: TextStyle(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w500,
-                              color: Colors.white,
-                            )),
-                      ),
-                      Stack(
-                        alignment: Alignment.bottomRight,
+              Row(
+                children: [
+                  Container(
+                    height: 220,
+                    width: 180,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(image: AssetImage(basics))),
+                    child: Padding(
+                      padding: const EdgeInsets.only(
+                          bottom: 20, left: 10, right: 10),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Container(
-                            height: 35,
-                            width: 80,
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(20),
-                            ),
-                            child: Center(child: Text("Start")),
-                          )
+                          Padding(
+                            padding: const EdgeInsets.only(bottom: 5),
+                            child: Text("3-10 MIN",
+                                style: TextStyle(
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.w500,
+                                  color: Colors.white,
+                                )),
+                          ),
+                          Stack(
+                            alignment: Alignment.bottomRight,
+                            children: [
+                              Container(
+                                height: 35,
+                                width: 80,
+                                decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(20),
+                                ),
+                                child: Center(child: Text("Start")),
+                              )
+                            ],
+                          ),
                         ],
                       ),
-                      Container(
-                        height: 220,
-                        width: 180,
-                        decoration: BoxDecoration(
-                            image:
-                                DecorationImage(image: AssetImage(relaxation))),
-                      )
-                    ],
+                    ),
                   ),
-                ),
+                ],
               )
             ],
           ),
