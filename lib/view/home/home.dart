@@ -129,7 +129,10 @@ class HomeScreen extends StatelessWidget {
               SizedBox(
                 height: 50,
               ),
-              Text("Recommended For You", style: TextStyle()),
+              Text("Recommended For You",
+                  style: TextStyle(
+                    fontSize: 20,
+                  )),
             ],
           ),
         ),
