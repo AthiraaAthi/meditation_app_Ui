@@ -132,6 +132,7 @@ class HomeScreen extends StatelessWidget {
               Text("Recommended For You",
                   style: TextStyle(
                     fontSize: 20,
+                    fontWeight: FontWeight.bold,
                   )),
             ],
           ),
