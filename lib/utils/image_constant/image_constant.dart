@@ -12,3 +12,4 @@ const String reduceStress = "assets/images/reduce_stress.png";
 const String basics = "assets/images/basics.png";
 const String relaxation = "assets/images/relaxation.png";
 const String dailyThought = "assets/images/daily_thought.png";
+const String focus = "assets\images\focus.png";
