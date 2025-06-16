@@ -150,17 +150,20 @@ class _HomeScreenState extends State<HomeScreen> {
                 SizedBox(
                   height: 10,
                 ),
-                ListView.builder(
-                  itemCount: images.length,
-                  scrollDirection: Axis.horizontal,
-                  shrinkWrap: true,
-                  itemBuilder: (context, index) => Container(
-                    height: 165,
-                    width: 165,
-                    decoration: BoxDecoration(
-                        image: DecorationImage(
-                      image: AssetImage(focus),
-                    )),
+                SizedBox(
+                  height: 165,
+                  child: ListView.builder(
+                    itemCount: images.length,
+                    scrollDirection: Axis.horizontal,
+                    shrinkWrap: true,
+                    itemBuilder: (context, index) => Container(
+                      height: 165,
+                      width: 165,
+                      decoration: BoxDecoration(
+                          image: DecorationImage(
+                        image: AssetImage(focus),
+                      )),
+                    ),
                   ),
                 )
               ],
