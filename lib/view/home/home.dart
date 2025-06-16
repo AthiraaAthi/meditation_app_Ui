@@ -9,6 +9,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  List<String> images = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
