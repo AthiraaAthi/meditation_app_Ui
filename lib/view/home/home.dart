@@ -156,13 +156,16 @@ class _HomeScreenState extends State<HomeScreen> {
                     itemCount: images.length,
                     scrollDirection: Axis.horizontal,
                     shrinkWrap: true,
-                    itemBuilder: (context, index) => Container(
-                      height: 165,
-                      width: 165,
-                      decoration: BoxDecoration(
-                          image: DecorationImage(
-                        image: AssetImage(images[index]),
-                      )),
+                    itemBuilder: (context, index) => Padding(
+                      padding: const EdgeInsets.only(right: 10),
+                      child: Container(
+                        height: 165,
+                        width: 165,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                          image: AssetImage(images[index]),
+                        )),
+                      ),
                     ),
                   ),
                 )
