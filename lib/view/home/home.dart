@@ -150,14 +150,16 @@ class _HomeScreenState extends State<HomeScreen> {
                 SizedBox(
                   height: 10,
                 ),
-                Container(
-                  height: 165,
-                  width: 165,
-                  decoration: BoxDecoration(
-                      image: DecorationImage(
-                    image: AssetImage(focus),
-                  )),
-                ) //listview on horizontal scrolll
+                ListView.builder(
+                  itemBuilder: (context, index) => Container(
+                    height: 165,
+                    width: 165,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                      image: AssetImage(focus),
+                    )),
+                  ),
+                )
               ],
             ),
           ),
