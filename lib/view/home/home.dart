@@ -80,7 +80,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        //course screen
+                      },
                       child: Container(
                         height: 220,
                         width: 180,
@@ -122,7 +124,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        //relaxationscreen
+                      },
                       child: Container(
                         height: 220,
                         width: 180,
