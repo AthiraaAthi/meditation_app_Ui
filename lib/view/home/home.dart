@@ -161,7 +161,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: 165,
                       decoration: BoxDecoration(
                           image: DecorationImage(
-                        image: AssetImage(focus),
+                        image: AssetImage(images[index]),
                       )),
                     ),
                   ),
