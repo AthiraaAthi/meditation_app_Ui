@@ -140,7 +140,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 SizedBox(
-                  height: 30,
+                  height: 20,
                 ),
                 Text("Recommended For You",
                     style: TextStyle(
