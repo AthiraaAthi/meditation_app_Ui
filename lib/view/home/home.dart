@@ -9,7 +9,9 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  List<String> images = [];
+  List<String> images = [
+    focus,
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
