@@ -151,6 +151,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 10,
                 ),
                 ListView.builder(
+                  itemCount: images.length,
                   itemBuilder: (context, index) => Container(
                     height: 165,
                     width: 165,
