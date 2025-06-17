@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
+import 'package:meditation_app_ui/view/home/course_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -81,7 +82,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   children: [
                     InkWell(
                       onTap: () {
-                        //course screen
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => CourseScreen(),
+                            ));
                       },
                       child: Container(
                         height: 220,
