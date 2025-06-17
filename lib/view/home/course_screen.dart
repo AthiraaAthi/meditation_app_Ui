@@ -38,6 +38,11 @@ class _CourseScreenState extends State<CourseScreen> {
                   child: Icon(Icons.favorite_border),
                 ),
               ),
+              Positioned(
+                top: 40,
+                right: 20,
+                child: CircleAvatar(),
+              ),
             ])
           ],
         ),
