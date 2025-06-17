@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
 
 class CourseScreen extends StatefulWidget {
   const CourseScreen({super.key});
@@ -16,7 +17,8 @@ class _CourseScreenState extends State<CourseScreen> {
           Container(
             height: 300,
             width: double.infinity,
-            decoration: BoxDecoration(),
+            decoration:
+                BoxDecoration(image: DecorationImage(image: AssetImage(sun))),
           )
         ],
       ),
