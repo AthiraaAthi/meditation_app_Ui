@@ -29,6 +29,11 @@ class _CourseScreenState extends State<CourseScreen> {
                 child: Icon(Icons.arrow_back),
               ),
             ),
+            Positioned(
+              top: 40,
+              right: 80,
+              child: CircleAvatar(),
+            ),
           ])
         ],
       ),
