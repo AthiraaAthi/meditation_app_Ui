@@ -15,6 +15,8 @@ class _CourseScreenState extends State<CourseScreen> {
         children: [
           Container(
             height: 300,
+            width: double.infinity,
+            decoration: BoxDecoration(),
           )
         ],
       ),
