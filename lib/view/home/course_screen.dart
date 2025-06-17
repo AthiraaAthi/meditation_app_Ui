@@ -14,12 +14,14 @@ class _CourseScreenState extends State<CourseScreen> {
     return Scaffold(
       body: Column(
         children: [
-          Container(
-            height: 300,
-            width: double.infinity,
-            decoration:
-                BoxDecoration(image: DecorationImage(image: AssetImage(sun))),
-          )
+          Stack(children: [
+            Container(
+              height: 300,
+              width: double.infinity,
+              decoration:
+                  BoxDecoration(image: DecorationImage(image: AssetImage(sun))),
+            ),
+          ])
         ],
       ),
     );
