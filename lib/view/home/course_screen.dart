@@ -12,7 +12,11 @@ class _CourseScreenState extends State<CourseScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: [],
+        children: [
+          Container(
+            height: 300,
+          )
+        ],
       ),
     );
   }
