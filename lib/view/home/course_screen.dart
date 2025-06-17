@@ -21,6 +21,11 @@ class _CourseScreenState extends State<CourseScreen> {
               decoration:
                   BoxDecoration(image: DecorationImage(image: AssetImage(sun))),
             ),
+            Positioned(
+              top: 40,
+              left: 20,
+              child: CircleAvatar(),
+            ),
           ])
         ],
       ),
