@@ -32,7 +32,10 @@ class _CourseScreenState extends State<CourseScreen> {
             Positioned(
               top: 40,
               right: 80,
-              child: CircleAvatar(),
+              child: CircleAvatar(
+                backgroundColor: Colors.white,
+                child: Icon(Icons.favorite_border),
+              ),
             ),
           ])
         ],
