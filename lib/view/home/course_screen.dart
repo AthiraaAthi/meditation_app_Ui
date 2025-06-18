@@ -53,6 +53,8 @@ class _CourseScreenState extends State<CourseScreen> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                     "Happy Morning",
@@ -64,6 +66,7 @@ class _CourseScreenState extends State<CourseScreen> {
                   SizedBox(height: 5),
                   Text(
                     "COURSE",
+                    style: TextStyle(letterSpacing: 2, color: Colors.grey),
                   ),
                 ],
               ),
