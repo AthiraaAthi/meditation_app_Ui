@@ -75,6 +75,7 @@ class _CourseScreenState extends State<CourseScreen> {
                     "Ease the mind into a restful night's sleep with these deep, ambient tones.",
                     style: TextStyle(
                       color: txtgrey,
+                      fontSize: 17,
                     ),
                   ),
                 ],
