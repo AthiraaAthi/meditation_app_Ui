@@ -62,6 +62,9 @@ class _CourseScreenState extends State<CourseScreen> {
                     ),
                   ),
                   SizedBox(height: 5),
+                  Text(
+                    "COURSE",
+                  ),
                 ],
               ),
             )
