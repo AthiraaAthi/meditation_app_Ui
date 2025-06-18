@@ -50,7 +50,9 @@ class _CourseScreenState extends State<CourseScreen> {
             SizedBox(height: 20),
             Text(
               "Happy Morning",
-              style: TextStyle(),
+              style: TextStyle(
+                fontSize: 24,
+              ),
             )
           ],
         ),
