@@ -15,6 +15,7 @@ class _CourseScreenState extends State<CourseScreen> {
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Stack(children: [
               Container(
@@ -49,11 +50,18 @@ class _CourseScreenState extends State<CourseScreen> {
               ),
             ]),
             SizedBox(height: 20),
-            Text(
-              "Happy Morning",
-              style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Column(
+                children: [
+                  Text(
+                    "Happy Morning",
+                    style: TextStyle(
+                      fontSize: 30,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
               ),
             )
           ],
