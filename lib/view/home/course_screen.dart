@@ -52,6 +52,7 @@ class _CourseScreenState extends State<CourseScreen> {
               "Happy Morning",
               style: TextStyle(
                 fontSize: 24,
+                fontWeight: FontWeight.bold,
               ),
             )
           ],
