@@ -78,6 +78,7 @@ class _CourseScreenState extends State<CourseScreen> {
                       fontSize: 17,
                     ),
                   ),
+                  SizedBox(height: 15),
                 ],
               ),
             )
