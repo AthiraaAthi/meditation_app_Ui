@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
 import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
 
 class CourseScreen extends StatefulWidget {
@@ -66,7 +67,7 @@ class _CourseScreenState extends State<CourseScreen> {
                   SizedBox(height: 5),
                   Text(
                     "COURSE",
-                    style: TextStyle(letterSpacing: 2, color: Colors.grey),
+                    style: TextStyle(letterSpacing: 2, color: txtgrey),
                   ),
                 ],
               ),
