@@ -46,7 +46,8 @@ class _CourseScreenState extends State<CourseScreen> {
                   child: Icon(Icons.download_outlined),
                 ),
               ),
-            ])
+            ]),
+            SizedBox(height: 20),
           ],
         ),
       ),
