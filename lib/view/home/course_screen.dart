@@ -73,7 +73,9 @@ class _CourseScreenState extends State<CourseScreen> {
                   SizedBox(height: 10),
                   Text(
                     "Ease the mind into a restful night's sleep with these deep, ambient tones.",
-                    style: TextStyle(),
+                    style: TextStyle(
+                      color: txtgrey,
+                    ),
                   ),
                 ],
               ),
