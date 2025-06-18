@@ -14,6 +14,7 @@ class _CourseScreenState extends State<CourseScreen> {
     return Scaffold(
       body: SafeArea(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Stack(children: [
               Container(
