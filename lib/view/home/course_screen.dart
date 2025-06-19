@@ -97,6 +97,7 @@ class _CourseScreenState extends State<CourseScreen> {
                         color: Colors.lightBlue,
                         size: 20,
                       ),
+                      SizedBox(width: 5),
                     ],
                   )
                 ],
