@@ -81,9 +81,7 @@ class _CourseScreenState extends State<CourseScreen> {
                   SizedBox(height: 15),
                   Row(
                     children: [
-                      Icon(
-                        Icons.favorite,
-                      ),
+                      Icon(Icons.favorite, color: Colors.pink, size: 20),
                     ],
                   )
                 ],
