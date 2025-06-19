@@ -85,7 +85,10 @@ class _CourseScreenState extends State<CourseScreen> {
                       SizedBox(width: 5),
                       Text(
                         "24,234 Favorites",
-                        style: TextStyle(),
+                        style: TextStyle(
+                          color: txtgrey,
+                          fontSize: 15,
+                        ),
                       ),
                     ],
                   )
