@@ -91,6 +91,7 @@ class _CourseScreenState extends State<CourseScreen> {
                           fontWeight: FontWeight.bold,
                         ),
                       ),
+                      SizedBox(width: 20),
                     ],
                   )
                 ],
