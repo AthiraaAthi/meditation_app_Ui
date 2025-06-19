@@ -98,7 +98,10 @@ class _CourseScreenState extends State<CourseScreen> {
                         size: 20,
                       ),
                       SizedBox(width: 5),
-                      Text("34,234 Listening"),
+                      Text(
+                        "34,234 Listening",
+                        style: TextStyle(),
+                      ),
                     ],
                   )
                 ],
