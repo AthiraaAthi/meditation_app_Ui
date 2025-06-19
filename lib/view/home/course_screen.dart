@@ -82,6 +82,7 @@ class _CourseScreenState extends State<CourseScreen> {
                   Row(
                     children: [
                       Icon(Icons.favorite, color: Colors.pink, size: 20),
+                      SizedBox(width: 5),
                     ],
                   )
                 ],
