@@ -83,6 +83,7 @@ class _CourseScreenState extends State<CourseScreen> {
                     children: [
                       Icon(Icons.favorite, color: Colors.pink, size: 20),
                       SizedBox(width: 5),
+                      Text("24,234 Favorites"),
                     ],
                   )
                 ],
