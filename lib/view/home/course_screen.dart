@@ -102,6 +102,8 @@ class _CourseScreenState extends State<CourseScreen> {
                         "34,234 Listening",
                         style: TextStyle(
                           color: txtgrey,
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ],
