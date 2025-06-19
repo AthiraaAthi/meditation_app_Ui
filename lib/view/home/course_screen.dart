@@ -88,6 +88,7 @@ class _CourseScreenState extends State<CourseScreen> {
                         style: TextStyle(
                           color: txtgrey,
                           fontSize: 15,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ],
