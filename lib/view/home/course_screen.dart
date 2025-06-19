@@ -94,6 +94,8 @@ class _CourseScreenState extends State<CourseScreen> {
                       SizedBox(width: 20),
                       Icon(
                         Icons.headphones,
+                        color: Colors.lightBlue,
+                        size: 20,
                       ),
                     ],
                   )
