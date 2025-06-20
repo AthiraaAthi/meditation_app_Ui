@@ -13,6 +13,14 @@ class AudioTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile();
+    return ListTile(
+      leading: CircleAvatar(
+        backgroundColor: isPlaying ? Colors.purple : Colors.grey.shade300,
+        child: Icon(
+          isPlaying ? Icons.play_arrow : Icons.play_arrow_outlined,
+          color: isPlaying ? Colors.white : Colors.black,
+        ),
+      ),
+    );
   }
 }
