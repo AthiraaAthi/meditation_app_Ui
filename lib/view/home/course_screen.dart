@@ -111,6 +111,7 @@ class _CourseScreenState extends State<CourseScreen> {
                   SizedBox(height: 20),
                   Text(
                     'Pick a Narrator',
+                    style: TextStyle(),
                   ),
                 ],
               ),
