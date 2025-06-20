@@ -117,6 +117,11 @@ class _CourseScreenState extends State<CourseScreen> {
                     ),
                   ),
                   SizedBox(height: 10),
+                  DefaultTabController(
+                      length: 2,
+                      child: Column(
+                        children: [],
+                      ))
                 ],
               ),
             )
