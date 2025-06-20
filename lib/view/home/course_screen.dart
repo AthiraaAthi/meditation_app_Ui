@@ -113,6 +113,7 @@ class _CourseScreenState extends State<CourseScreen> {
                     'Pick a Narrator',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
+                      fontSize: 24,
                     ),
                   ),
                 ],
