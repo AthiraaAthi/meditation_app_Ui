@@ -122,6 +122,7 @@ class _CourseScreenState extends State<CourseScreen> {
                       child: Column(
                         children: [
                           TabBar(
+                            indicatorColor: defBlue,
                             tabs: [
                               Tab(text: 'MALE VOICE'),
                               Tab(text: 'FEMALE VOICE'),
