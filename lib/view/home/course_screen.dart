@@ -123,6 +123,8 @@ class _CourseScreenState extends State<CourseScreen> {
                         children: [
                           TabBar(
                             indicatorColor: defBlue,
+                            labelColor: defBlue,
+                            unselectedLabelColor: Colors.grey,
                             tabs: [
                               Tab(text: 'MALE VOICE'),
                               Tab(text: 'FEMALE VOICE'),
