@@ -21,6 +21,8 @@ class AudioTile extends StatelessWidget {
           color: isPlaying ? Colors.white : Colors.black,
         ),
       ),
+      title: Text(title),
+      trailing: Text(duration),
     );
   }
 }
