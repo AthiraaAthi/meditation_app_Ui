@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
 import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
+import 'package:meditation_app_ui/view/home/audio_list.dart';
 
 class CourseScreen extends StatefulWidget {
   const CourseScreen({super.key});
@@ -128,6 +129,12 @@ class _CourseScreenState extends State<CourseScreen> {
                             tabs: [
                               Tab(text: 'MALE VOICE'),
                               Tab(text: 'FEMALE VOICE'),
+                            ],
+                          ),
+                          TabBarView(
+                            children: [
+                              AudioList(),
+                              AudioList(),
                             ],
                           ),
                         ],
