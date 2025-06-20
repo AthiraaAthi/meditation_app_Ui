@@ -122,7 +122,9 @@ class _CourseScreenState extends State<CourseScreen> {
                       child: Column(
                         children: [
                           TabBar(
-                            tabs: [],
+                            tabs: [
+                              Tab(text: 'MALE VOICE'),
+                            ],
                           ),
                         ],
                       ))
