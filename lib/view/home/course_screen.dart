@@ -124,6 +124,7 @@ class _CourseScreenState extends State<CourseScreen> {
                           TabBar(
                             tabs: [
                               Tab(text: 'MALE VOICE'),
+                              Tab(text: 'FEMALE VOICE'),
                             ],
                           ),
                         ],
