@@ -120,7 +120,11 @@ class _CourseScreenState extends State<CourseScreen> {
                   DefaultTabController(
                       length: 2,
                       child: Column(
-                        children: [],
+                        children: [
+                          TabBar(
+                            tabs: [],
+                          ),
+                        ],
                       ))
                 ],
               ),
