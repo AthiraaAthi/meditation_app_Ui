@@ -26,3 +26,12 @@ class AudioTile extends StatelessWidget {
     );
   }
 }
+
+class AudioList extends StatelessWidget {
+  const AudioList({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
