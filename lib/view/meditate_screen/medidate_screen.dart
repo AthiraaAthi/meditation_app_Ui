@@ -8,9 +8,15 @@ class MedidateScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: white,
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [],
+      body: SafeArea(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              'Meditate',
+            ),
+          ],
+        ),
       ),
     );
   }
