@@ -33,6 +33,8 @@ class AudioList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView();
+    return ListView(
+      physics: NeverScrollableScrollPhysics(),
+    );
   }
 }
