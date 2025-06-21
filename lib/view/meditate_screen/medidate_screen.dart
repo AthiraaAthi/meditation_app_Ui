@@ -14,6 +14,7 @@ class MedidateScreen extends StatelessWidget {
           children: [
             Text(
               'Meditate',
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
           ],
         ),
