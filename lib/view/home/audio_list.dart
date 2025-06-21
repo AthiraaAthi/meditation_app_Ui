@@ -36,6 +36,7 @@ class AudioList extends StatelessWidget {
     return ListView(
       physics: NeverScrollableScrollPhysics(),
       padding: EdgeInsets.all(16),
+      children: [],
     );
   }
 }
