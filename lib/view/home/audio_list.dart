@@ -36,7 +36,10 @@ class AudioList extends StatelessWidget {
     return ListView(
       physics: NeverScrollableScrollPhysics(),
       padding: EdgeInsets.all(16),
-      children: [],
+      children: [
+        AudioTile(
+            title: 'Focus Attention', duration: '10 MIN', isPlaying: true),
+      ],
     );
   }
 }
