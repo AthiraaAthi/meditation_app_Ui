@@ -9,6 +9,7 @@ class MedidateScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: white,
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [],
       ),
     );
