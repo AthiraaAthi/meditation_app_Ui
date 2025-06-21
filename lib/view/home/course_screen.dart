@@ -133,7 +133,7 @@ class _CourseScreenState extends State<CourseScreen> {
                               ],
                             ),
                             SizedBox(
-                              height: 100,
+                              height: 250,
                               child: TabBarView(
                                 children: [
                                   AudioList(),
