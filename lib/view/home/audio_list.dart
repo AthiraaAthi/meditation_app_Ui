@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
 
 class AudioTile extends StatelessWidget {
   final String title;
@@ -15,7 +16,7 @@ class AudioTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       leading: CircleAvatar(
-        backgroundColor: isPlaying ? Colors.purple : Colors.grey.shade300,
+        backgroundColor: isPlaying ? defBlue : Colors.grey.shade300,
         child: Icon(
           isPlaying ? Icons.play_arrow : Icons.play_arrow_outlined,
           color: isPlaying ? Colors.white : Colors.black,
@@ -32,6 +33,6 @@ class AudioList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return ListView();
   }
 }
