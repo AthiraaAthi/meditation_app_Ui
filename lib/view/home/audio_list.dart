@@ -39,6 +39,7 @@ class AudioList extends StatelessWidget {
       children: [
         AudioTile(
             title: 'Focus Attention', duration: '10 MIN', isPlaying: true),
+        AudioTile(title: 'Body Scan', duration: '5 MIN'),
       ],
     );
   }
