@@ -21,3 +21,7 @@ const String dailyCalm = "assets\images\Daily_calm.png";
 const String anxietyRelease = "assets\images\Anxiety_release.png";
 const String mindfulShores = "assets\images\mindful_shores.PNG";
 const String morningStillness = "assets\images\Morning_stillness.PNG";
+const String my = "assets\images\My.png";
+const String anxious = "assets\images\anxious.png";
+const String sleep = "assets\images\Sleep.png";
+const String kids = "assets\images\Kids.png";
