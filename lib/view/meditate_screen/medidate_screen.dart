@@ -12,6 +12,7 @@ class MedidateScreen extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(12),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -22,6 +23,8 @@ class MedidateScreen extends StatelessWidget {
                   ),
                 ],
               ),
+              Text(
+                  "we can learn how to recognize when our minds\n are doing their normal everyday acrobatics.")
             ],
           ),
         ),
