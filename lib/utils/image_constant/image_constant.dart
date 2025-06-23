@@ -15,3 +15,6 @@ const String dailyThought = "assets/images/daily_thought.png";
 const String focus = "assets/images/focus.png";
 const String happiness = "assets/images/happiness.png";
 const String sun = "assets/images/sun.png";
+const String daysCalm = "assets\images\7days_calm.png";
+const String all = "assets\images\All.png";
+const String daily_calm = "assets\images\Daily_calm.png";
