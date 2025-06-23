@@ -44,7 +44,12 @@ class _MedidateScreenState extends State<MedidateScreen> {
               SizedBox(height: 20),
               ListView.builder(
                 itemCount: options.length,
-                itemBuilder: (context, index) => Container(),
+                shrinkWrap: true,
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context, index) => Container(
+                  height: 95,
+                  width: 65,
+                ),
               )
             ],
           ),
