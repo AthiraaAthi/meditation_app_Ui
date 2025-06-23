@@ -29,7 +29,9 @@ class MedidateScreen extends StatelessWidget {
                 style: TextStyle(fontSize: 16, color: txtgrey),
               ),
               SizedBox(height: 20),
-              //ListView()
+              ListView.builder(
+                itemBuilder: (context, index) => Container(),
+              )
             ],
           ),
         ),
