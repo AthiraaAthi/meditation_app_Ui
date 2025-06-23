@@ -14,6 +14,7 @@ class MedidateScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
+              SizedBox(height: 20),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -25,10 +26,10 @@ class MedidateScreen extends StatelessWidget {
               ),
               Text(
                 "we can learn how to recognize when our minds\n are doing their normal everyday acrobatics.",
-                style: TextStyle(fontSize: 13, color: txtgrey),
+                style: TextStyle(fontSize: 16, color: txtgrey),
               ),
               SizedBox(height: 20),
-              ListView()
+              //ListView()
             ],
           ),
         ),
