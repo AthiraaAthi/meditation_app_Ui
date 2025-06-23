@@ -24,7 +24,9 @@ class MedidateScreen extends StatelessWidget {
                 ],
               ),
               Text(
-                  "we can learn how to recognize when our minds\n are doing their normal everyday acrobatics.")
+                "we can learn how to recognize when our minds\n are doing their normal everyday acrobatics.",
+                style: TextStyle(fontSize: 13, color: txtgrey),
+              )
             ],
           ),
         ),
