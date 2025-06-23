@@ -1,9 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
+import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
 
-class MedidateScreen extends StatelessWidget {
+class MedidateScreen extends StatefulWidget {
   const MedidateScreen({super.key});
 
+  @override
+  State<MedidateScreen> createState() => _MedidateScreenState();
+}
+
+class _MedidateScreenState extends State<MedidateScreen> {
+  List<String> options = [
+    all,
+    my,
+    anxious,
+    sleep,
+    kids,
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,6 +43,7 @@ class MedidateScreen extends StatelessWidget {
               ),
               SizedBox(height: 20),
               ListView.builder(
+                itemCount: options.length,
                 itemBuilder: (context, index) => Container(),
               )
             ],
