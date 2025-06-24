@@ -50,6 +50,7 @@ class _MedidateScreenState extends State<MedidateScreen> {
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context, index) => Padding(
                     padding: const EdgeInsets.only(left: 15),
+                    child: Container(),
                   ),
                 ),
               )
