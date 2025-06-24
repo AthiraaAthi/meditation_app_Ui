@@ -79,6 +79,12 @@ class _MedidateScreenState extends State<MedidateScreen> {
               SizedBox(
                 height: 10,
               ),
+              GridView.builder(
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                ),
+                itemBuilder: (context, index) => Container(),
+              )
             ],
           ),
         ),
