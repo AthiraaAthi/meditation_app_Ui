@@ -42,13 +42,15 @@ class _MedidateScreenState extends State<MedidateScreen> {
                 style: TextStyle(fontSize: 16, color: txtgrey),
               ),
               SizedBox(height: 20),
-              ListView.builder(
-                itemCount: options.length,
-                shrinkWrap: true,
-                scrollDirection: Axis.horizontal,
-                itemBuilder: (context, index) => Container(
-                  height: 95,
-                  width: 65,
+              SizedBox(
+                height: 95,
+                child: ListView.builder(
+                  itemCount: options.length,
+                  shrinkWrap: true,
+                  scrollDirection: Axis.horizontal,
+                  itemBuilder: (context, index) => Padding(
+                    padding: const EdgeInsets.only(left: 15),
+                  ),
                 ),
               )
             ],
