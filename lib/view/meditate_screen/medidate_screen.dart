@@ -61,7 +61,10 @@ class _MedidateScreenState extends State<MedidateScreen> {
                     ),
                   ),
                 ),
-              )
+              ),
+              SizedBox(
+                height: 20,
+              ),
             ],
           ),
         ),
