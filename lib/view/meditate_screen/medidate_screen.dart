@@ -73,6 +73,7 @@ class _MedidateScreenState extends State<MedidateScreen> {
                     image: AssetImage(dailyCalm),
                     fit: BoxFit.cover,
                   ),
+                  borderRadius: BorderRadius.circular(10),
                 ),
               )
             ],
