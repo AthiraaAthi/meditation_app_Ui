@@ -75,7 +75,10 @@ class _MedidateScreenState extends State<MedidateScreen> {
                   ),
                   borderRadius: BorderRadius.circular(10),
                 ),
-              )
+              ),
+              SizedBox(
+                height: 10,
+              ),
             ],
           ),
         ),
