@@ -68,6 +68,7 @@ class _MedidateScreenState extends State<MedidateScreen> {
               Container(
                 height: 95,
                 width: 375,
+                decoration: BoxDecoration(),
               )
             ],
           ),
