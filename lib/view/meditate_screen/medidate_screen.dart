@@ -55,6 +55,7 @@ class _MedidateScreenState extends State<MedidateScreen> {
                       decoration: BoxDecoration(
                           image: DecorationImage(
                             image: AssetImage(options[index]),
+                            fit: BoxFit.cover,
                           ),
                           borderRadius: BorderRadius.circular(10)),
                     ),
