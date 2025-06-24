@@ -53,10 +53,10 @@ class _MedidateScreenState extends State<MedidateScreen> {
                     child: Container(
                       width: 65,
                       decoration: BoxDecoration(
-                        image: DecorationImage(
-                          image: AssetImage(options[index]),
-                        ),
-                      ),
+                          image: DecorationImage(
+                            image: AssetImage(options[index]),
+                          ),
+                          borderRadius: BorderRadius.circular(10)),
                     ),
                   ),
                 ),
