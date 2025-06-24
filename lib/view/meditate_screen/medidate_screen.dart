@@ -52,7 +52,11 @@ class _MedidateScreenState extends State<MedidateScreen> {
                     padding: const EdgeInsets.only(left: 15),
                     child: Container(
                       width: 65,
-                      decoration: BoxDecoration(),
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                          image: AssetImage(options[index]),
+                        ),
+                      ),
                     ),
                   ),
                 ),
