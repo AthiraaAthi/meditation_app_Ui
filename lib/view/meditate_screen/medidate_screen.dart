@@ -20,6 +20,8 @@ class _MedidateScreenState extends State<MedidateScreen> {
   List<String> grid = [
     daysCalm,
     anxietyRelease,
+    morningStillness,
+    mindfulShores
   ];
   @override
   Widget build(BuildContext context) {
