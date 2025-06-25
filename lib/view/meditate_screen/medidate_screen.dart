@@ -17,6 +17,7 @@ class _MedidateScreenState extends State<MedidateScreen> {
     sleep,
     kids,
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -79,14 +80,15 @@ class _MedidateScreenState extends State<MedidateScreen> {
               SizedBox(
                 height: 10,
               ),
-              GridView.builder(
-                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2,
-                  crossAxisSpacing: 12,
-                  mainAxisSpacing: 12,
-                  childAspectRatio: 1.1,
+              Expanded(
+                child: GridView.builder(
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 2,
+                      crossAxisSpacing: 5,
+                      mainAxisSpacing: 10,
+                      mainAxisExtent: 200),
+                  itemBuilder: (context, index) => Container(),
                 ),
-                itemBuilder: (context, index) => Container(),
               )
             ],
           ),
