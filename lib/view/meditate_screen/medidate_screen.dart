@@ -96,7 +96,10 @@ class _MedidateScreenState extends State<MedidateScreen> {
                     width: 170,
                     height: 210,
                     decoration: BoxDecoration(
-                        image: DecorationImage(image: AssetImage(daysCalm))),
+                      image: DecorationImage(
+                        image: AssetImage(grid[index]),
+                      ),
+                    ),
                   ),
                 ),
               )
