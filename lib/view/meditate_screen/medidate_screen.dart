@@ -100,6 +100,7 @@ class _MedidateScreenState extends State<MedidateScreen> {
                     width: 170,
                     height: 210,
                     decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
                           image: AssetImage(grid[index]), fit: BoxFit.cover),
                     ),
