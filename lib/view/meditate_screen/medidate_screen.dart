@@ -87,23 +87,21 @@ class _MedidateScreenState extends State<MedidateScreen> {
                 SizedBox(
                   height: 10,
                 ),
-                Expanded(
-                  child: GridView.builder(
-                    shrinkWrap: true,
-                    physics: NeverScrollableScrollPhysics(),
-                    itemCount: grid.length,
-                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: 2,
-                        crossAxisSpacing: 5,
-                        mainAxisSpacing: 10,
-                        mainAxisExtent: 200),
-                    itemBuilder: (context, index) => Container(
-                      width: 170,
-                      height: 210,
-                      decoration: BoxDecoration(
-                        image: DecorationImage(
-                            image: AssetImage(grid[index]), fit: BoxFit.cover),
-                      ),
+                GridView.builder(
+                  shrinkWrap: true,
+                  physics: NeverScrollableScrollPhysics(),
+                  itemCount: grid.length,
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 2,
+                      crossAxisSpacing: 15,
+                      mainAxisSpacing: 15,
+                      mainAxisExtent: 200),
+                  itemBuilder: (context, index) => Container(
+                    width: 170,
+                    height: 210,
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                          image: AssetImage(grid[index]), fit: BoxFit.cover),
                     ),
                   ),
                 )
