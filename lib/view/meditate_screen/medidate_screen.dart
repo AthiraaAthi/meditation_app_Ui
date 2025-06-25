@@ -87,6 +87,7 @@ class _MedidateScreenState extends State<MedidateScreen> {
               ),
               Expanded(
                 child: GridView.builder(
+                  itemCount: grid.length,
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2,
                       crossAxisSpacing: 5,
