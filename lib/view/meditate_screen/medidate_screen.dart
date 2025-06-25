@@ -17,7 +17,7 @@ class _MedidateScreenState extends State<MedidateScreen> {
     sleep,
     kids,
   ];
-
+  List<String> grid = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
