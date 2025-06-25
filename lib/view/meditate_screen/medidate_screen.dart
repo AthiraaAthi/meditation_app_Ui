@@ -92,7 +92,9 @@ class _MedidateScreenState extends State<MedidateScreen> {
                       crossAxisSpacing: 5,
                       mainAxisSpacing: 10,
                       mainAxisExtent: 200),
-                  itemBuilder: (context, index) => Container(),
+                  itemBuilder: (context, index) => Container(
+                    width: 170,
+                  ),
                 ),
               )
             ],
