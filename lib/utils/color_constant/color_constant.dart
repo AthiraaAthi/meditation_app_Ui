@@ -9,3 +9,4 @@ const Color textfieldFill = Color(0xF5F6F9FF);
 const Color welcomeBlue = Color(0xFF8C96FF);
 const Color welcomeBg = Color(0xFF9094fc);
 const Color txtgrey = Color(0xffA1A4B2);
+const Color darkBlue = Color(0xFF3F4553);
