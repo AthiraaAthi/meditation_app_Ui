@@ -28,6 +28,8 @@ class SleepScreen extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
+              Text(
+                  "Explore the new king of sleep. It uses sound and vesualization to create perfect conditions for refreshing sleep.")
             ],
           ),
         ),
