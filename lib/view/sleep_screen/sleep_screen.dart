@@ -8,17 +8,20 @@ class SleepScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: darkBlue,
-      body: Column(
-        children: [
-          Text(
-            "Welcome to Sleep",
-            style: TextStyle(
-              color: white,
-              fontSize: 30,
-              fontWeight: FontWeight.bold,
-            ),
-          )
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(15),
+        child: Column(
+          children: [
+            Text(
+              "Welcome to Sleep",
+              style: TextStyle(
+                color: white,
+                fontSize: 30,
+                fontWeight: FontWeight.bold,
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
