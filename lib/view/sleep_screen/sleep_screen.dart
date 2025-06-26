@@ -10,17 +10,23 @@ class SleepScreen extends StatelessWidget {
       backgroundColor: darkBlue,
       body: Padding(
         padding: const EdgeInsets.all(15),
-        child: Column(
-          children: [
-            Text(
-              "Welcome to Sleep",
-              style: TextStyle(
-                color: white,
-                fontSize: 30,
-                fontWeight: FontWeight.bold,
+        child: Center(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              SizedBox(
+                height: 30,
               ),
-            )
-          ],
+              Text(
+                "Welcome to Sleep",
+                style: TextStyle(
+                  color: white,
+                  fontSize: 30,
+                  fontWeight: FontWeight.bold,
+                ),
+              )
+            ],
+          ),
         ),
       ),
     );
