@@ -12,6 +12,7 @@ class SleepScreen extends StatelessWidget {
         children: [
           Text(
             "Welcome to Sleep",
+            style: TextStyle(),
           )
         ],
       ),
