@@ -8,6 +8,9 @@ class SleepScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: darkBlue,
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
