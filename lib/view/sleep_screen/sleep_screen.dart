@@ -14,6 +14,8 @@ class SleepScreen extends StatelessWidget {
             "Welcome to Sleep",
             style: TextStyle(
               color: white,
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
             ),
           )
         ],
