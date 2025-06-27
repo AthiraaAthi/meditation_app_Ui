@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
+import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
 
 class SleepScreen extends StatelessWidget {
   const SleepScreen({super.key});
@@ -37,7 +38,8 @@ class SleepScreen extends StatelessWidget {
               ),
               Container(
                 height: 230,
-                decoration: BoxDecoration(),
+                decoration: BoxDecoration(
+                    image: DecorationImage(image: AssetImage(birds))),
               )
             ],
           ),
