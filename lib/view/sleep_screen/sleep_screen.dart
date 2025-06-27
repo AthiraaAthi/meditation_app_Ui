@@ -45,12 +45,12 @@ class SleepScreen extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 50,
+                height: 150,
               ),
               Container(
                 height: 65,
                 width: 375,
-                decoration: BoxDecoration(),
+                decoration: BoxDecoration(color: defBlue),
               )
             ],
           ),
