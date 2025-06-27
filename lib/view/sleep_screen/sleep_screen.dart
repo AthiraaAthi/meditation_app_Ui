@@ -16,7 +16,7 @@ class SleepScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               SizedBox(
-                height: 100,
+                height: 70,
               ),
               Text(
                 "Welcome to Sleep",
@@ -37,9 +37,12 @@ class SleepScreen extends StatelessWidget {
                 height: 30,
               ),
               Container(
-                height: 230,
+                height: 220,
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(birds))),
+                  image: DecorationImage(
+                    image: AssetImage(birds),
+                  ),
+                ),
               )
             ],
           ),
