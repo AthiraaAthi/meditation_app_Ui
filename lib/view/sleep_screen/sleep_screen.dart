@@ -30,6 +30,7 @@ class SleepScreen extends StatelessWidget {
               ),
               Text(
                 "Explore the new king of sleep. It uses sound \n and visualization to create perfect conditions \n for refreshing sleep.",
+                style: TextStyle(),
               )
             ],
           ),
