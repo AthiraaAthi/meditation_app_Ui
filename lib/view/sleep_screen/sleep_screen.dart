@@ -37,6 +37,7 @@ class SleepScreen extends StatelessWidget {
               ),
               Container(
                 height: 230,
+                decoration: BoxDecoration(),
               )
             ],
           ),
