@@ -50,7 +50,9 @@ class SleepScreen extends StatelessWidget {
               Container(
                 height: 65,
                 width: 375,
-                decoration: BoxDecoration(color: defBlue),
+                decoration: BoxDecoration(
+                    color: defBlue, borderRadius: BorderRadius.circular(30)),
+                child: Text("GET STARTED"),
               )
             ],
           ),
