@@ -15,7 +15,7 @@ class SleepScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               SizedBox(
-                height: 30,
+                height: 100,
               ),
               Text(
                 "Welcome to Sleep",
@@ -29,7 +29,8 @@ class SleepScreen extends StatelessWidget {
                 height: 10,
               ),
               Text(
-                  "Explore the new king of sleep. It uses sound and vesualization to create perfect conditions for refreshing sleep.")
+                "Explore the new king of sleep. It uses sound \n and visualization to create perfect conditions \n for refreshing sleep.",
+              )
             ],
           ),
         ),
