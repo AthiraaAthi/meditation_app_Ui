@@ -43,7 +43,11 @@ class SleepScreen extends StatelessWidget {
                     image: AssetImage(birds),
                   ),
                 ),
-              )
+              ),
+              SizedBox(
+                height: 50,
+              ),
+              Container()
             ],
           ),
         ),
