@@ -41,7 +41,9 @@ class _NavScreenState extends State<NavScreen> {
         backgroundColor: _currentIndex == 1 ? darkBlue : Colors.white,
         currentIndex: _currentIndex,
         selectedItemColor: _currentIndex == 1 ? defBlue : Colors.deepPurple,
-        unselectedItemColor: Colors.grey,
+        unselectedItemColor: _currentIndex == 1
+            ? white
+            : Colors.grey, //conditions for sleep screen since its bg is dark
         onTap: (index) {
           setState(() {
             _currentIndex = index;
