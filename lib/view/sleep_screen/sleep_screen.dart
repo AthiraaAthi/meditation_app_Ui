@@ -8,8 +8,11 @@ class SleepScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: darkBlue,
-      body: Column(
-        children: [Text("Sleep Stories")],
+      body: Padding(
+        padding: const EdgeInsets.all(15),
+        child: Column(
+          children: [Text("Sleep Stories")],
+        ),
       ),
     );
   }
