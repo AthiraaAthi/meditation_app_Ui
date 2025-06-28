@@ -24,6 +24,12 @@ class SleepScreen extends StatelessWidget {
                   color: white,
                   fontWeight: FontWeight.w600,
                 ),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                "Soothing bedtime stories to help you fall into a deep and natural sleep",
               )
             ],
           ),
