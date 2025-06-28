@@ -13,7 +13,14 @@ class SleepScreen extends StatelessWidget {
         child: Center(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: [Text("Sleep Stories")],
+            children: [
+              Text(
+                "Sleep Stories",
+                style: TextStyle(
+                  fontSize: 30,
+                ),
+              )
+            ],
           ),
         ),
       ),
