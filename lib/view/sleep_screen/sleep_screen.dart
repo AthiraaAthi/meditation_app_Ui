@@ -9,7 +9,7 @@ class SleepScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: darkBlue,
       body: Column(
-        children: [],
+        children: [Text("Sleep Stories")],
       ),
     );
   }
