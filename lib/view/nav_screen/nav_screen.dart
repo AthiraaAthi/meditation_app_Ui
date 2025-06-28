@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
 import 'package:meditation_app_ui/view/home/home.dart';
 import 'package:meditation_app_ui/view/meditate_screen/medidate_screen.dart';
 import 'package:meditation_app_ui/view/music_screen/music_screen.dart';
@@ -37,6 +38,7 @@ class _NavScreenState extends State<NavScreen> {
     return Scaffold(
       body: screens[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: _currentIndex == 1 ? darkBlue : Colors.white,
         currentIndex: _currentIndex,
         selectedItemColor: Colors.deepPurple,
         unselectedItemColor: Colors.grey,
