@@ -10,8 +10,11 @@ class SleepScreen extends StatelessWidget {
       backgroundColor: darkBlue,
       body: Padding(
         padding: const EdgeInsets.all(15),
-        child: Column(
-          children: [Text("Sleep Stories")],
+        child: Center(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [Text("Sleep Stories")],
+          ),
         ),
       ),
     );
