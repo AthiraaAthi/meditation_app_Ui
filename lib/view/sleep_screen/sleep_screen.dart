@@ -30,6 +30,7 @@ class SleepScreen extends StatelessWidget {
               ),
               Text(
                 "Soothing bedtime stories to help you fall \n into a deep and natural sleep",
+                style: TextStyle(),
               )
             ],
           ),
