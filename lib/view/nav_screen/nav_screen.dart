@@ -6,7 +6,12 @@ import 'package:meditation_app_ui/view/profile_screen/profile.dart';
 import 'package:meditation_app_ui/view/sleep_screen/sleep_screen.dart';
 
 class NavScreen extends StatefulWidget {
-  const NavScreen({super.key});
+  final int initialIndex;
+
+  const NavScreen(
+      {super.key,
+      this.initialIndex =
+          0}); //for getting specific screen from nav for welcome sleep screen
 
   @override
   State<NavScreen> createState() => _NavScreenState();
@@ -21,6 +26,12 @@ class _NavScreenState extends State<NavScreen> {
     MusicScreen(),
     ProfileScreen()
   ];
+  @override
+  void initState() {
+    _currentIndex = widget.initialIndex; // Set from constructor
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

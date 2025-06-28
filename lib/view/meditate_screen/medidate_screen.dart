@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app_ui/utils/color_constant/color_constant.dart';
 import 'package:meditation_app_ui/utils/image_constant/image_constant.dart';
+import 'package:meditation_app_ui/view/sleep_screen/welcome_sleepScreen.dart';
 
 class MedidateScreen extends StatefulWidget {
   const MedidateScreen({super.key});
@@ -22,6 +23,13 @@ class _MedidateScreenState extends State<MedidateScreen> {
     anxietyRelease,
     morningStillness,
     mindfulShores
+  ];
+  List<Widget> screens = [
+    WelcomeSleep(),
+    WelcomeSleep(),
+    WelcomeSleep(),
+    WelcomeSleep(),
+    WelcomeSleep(),
   ];
   @override
   Widget build(BuildContext context) {
@@ -58,14 +66,24 @@ class _MedidateScreenState extends State<MedidateScreen> {
                     scrollDirection: Axis.horizontal,
                     itemBuilder: (context, index) => Padding(
                       padding: const EdgeInsets.only(left: 15),
-                      child: Container(
-                        width: 65,
-                        decoration: BoxDecoration(
-                            image: DecorationImage(
-                              image: AssetImage(options[index]),
-                              fit: BoxFit.cover,
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => screens[index],
                             ),
-                            borderRadius: BorderRadius.circular(10)),
+                          );
+                        },
+                        child: Container(
+                          width: 65,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage(options[index]),
+                                fit: BoxFit.cover,
+                              ),
+                              borderRadius: BorderRadius.circular(10)),
+                        ),
                       ),
                     ),
                   ),
