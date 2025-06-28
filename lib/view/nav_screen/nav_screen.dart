@@ -40,7 +40,7 @@ class _NavScreenState extends State<NavScreen> {
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: _currentIndex == 1 ? darkBlue : Colors.white,
         currentIndex: _currentIndex,
-        selectedItemColor: Colors.deepPurple,
+        selectedItemColor: _currentIndex == 1 ? defBlue : Colors.deepPurple,
         unselectedItemColor: Colors.grey,
         onTap: (index) {
           setState(() {
