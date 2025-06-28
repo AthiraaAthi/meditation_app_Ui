@@ -29,7 +29,7 @@ class SleepScreen extends StatelessWidget {
                 height: 10,
               ),
               Text(
-                "Soothing bedtime stories to help you fall into a deep and natural sleep",
+                "Soothing bedtime stories to help you fall \n into a deep and natural sleep",
               )
             ],
           ),
