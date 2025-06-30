@@ -57,7 +57,9 @@ class _SleepScreenState extends State<SleepScreen> {
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context, index) => Padding(
                     padding: const EdgeInsets.only(left: 15),
-                    child: Container(),
+                    child: Container(
+                      width: 65,
+                    ),
                   ),
                 ),
               ),
