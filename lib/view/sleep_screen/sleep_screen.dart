@@ -62,6 +62,7 @@ class _SleepScreenState extends State<SleepScreen> {
                       decoration: BoxDecoration(
                         image: DecorationImage(
                           image: AssetImage(options[index]),
+                          fit: BoxFit.cover,
                         ),
                       ),
                     ),
