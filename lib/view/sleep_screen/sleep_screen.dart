@@ -45,7 +45,10 @@ class _SleepScreenState extends State<SleepScreen> {
                 "Soothing bedtime stories to help you fall \n into a deep and natural sleep",
                 style: TextStyle(
                     color: white, fontSize: 16, fontWeight: FontWeight.w300),
-              )
+              ),
+              SizedBox(
+                height: 20,
+              ),
             ],
           ),
         ),
