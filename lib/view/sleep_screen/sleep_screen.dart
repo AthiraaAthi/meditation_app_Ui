@@ -13,6 +13,9 @@ class _SleepScreenState extends State<SleepScreen> {
   List<String> options = [
     all,
     my,
+    anxious,
+    sleep,
+    kids,
   ];
   @override
   Widget build(BuildContext context) {
