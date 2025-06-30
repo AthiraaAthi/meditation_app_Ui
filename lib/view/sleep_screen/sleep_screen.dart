@@ -52,6 +52,7 @@ class _SleepScreenState extends State<SleepScreen> {
               SizedBox(
                 height: 95,
                 child: ListView.builder(
+                  itemCount: options.length,
                   itemBuilder: (context, index) => Padding(
                     padding: const EdgeInsets.only(left: 15),
                   ),
