@@ -60,11 +60,11 @@ class _SleepScreenState extends State<SleepScreen> {
                     child: Container(
                       width: 65,
                       decoration: BoxDecoration(
-                        image: DecorationImage(
-                          image: AssetImage(options[index]),
-                          fit: BoxFit.cover,
-                        ),
-                      ),
+                          image: DecorationImage(
+                            image: AssetImage(options[index]),
+                            fit: BoxFit.cover,
+                          ),
+                          borderRadius: BorderRadius.circular(10)),
                     ),
                   ),
                 ),
