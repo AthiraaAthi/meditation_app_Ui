@@ -54,6 +54,7 @@ class _SleepScreenState extends State<SleepScreen> {
                 child: ListView.builder(
                   itemCount: options.length,
                   shrinkWrap: true,
+                  scrollDirection: Axis.horizontal,
                   itemBuilder: (context, index) => Padding(
                     padding: const EdgeInsets.only(left: 15),
                   ),
