@@ -10,7 +10,10 @@ class SleepScreen extends StatefulWidget {
 }
 
 class _SleepScreenState extends State<SleepScreen> {
-  List<String> options = [];
+  List<String> options = [
+    all,
+    my,
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
