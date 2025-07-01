@@ -87,11 +87,16 @@ class _SleepScreenState extends State<SleepScreen> {
                   Padding(
                     padding: const EdgeInsets.only(
                       top: 9,
-                      left: 4,
+                      left: 5,
                     ),
                     child: CircleAvatar(
                       radius: 16,
                       backgroundColor: defBlue,
+                      child: Icon(
+                        Icons.lock_outline,
+                        color: white,
+                        size: 20,
+                      ),
                     ),
                   )
                 ],
