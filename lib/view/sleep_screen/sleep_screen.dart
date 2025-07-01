@@ -17,6 +17,8 @@ class _SleepScreenState extends State<SleepScreen> {
     sleep,
     kids,
   ];
+  List<String> images = [];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
