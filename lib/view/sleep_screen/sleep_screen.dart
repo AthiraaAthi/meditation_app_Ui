@@ -75,8 +75,8 @@ class _SleepScreenState extends State<SleepScreen> {
               Container(
                 height: 240,
                 decoration: BoxDecoration(
-                  color: welcomeBg,
-                ),
+                    color: welcomeBg,
+                    image: DecorationImage(image: AssetImage(oceanMoon))),
               )
             ],
           ),
