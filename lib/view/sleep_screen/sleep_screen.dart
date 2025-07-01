@@ -84,8 +84,11 @@ class _SleepScreenState extends State<SleepScreen> {
                           fit: BoxFit.cover,
                         )),
                   ),
-                  CircleAvatar(
-                    radius: 20,
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: CircleAvatar(
+                      radius: 20,
+                    ),
                   )
                 ],
               )
