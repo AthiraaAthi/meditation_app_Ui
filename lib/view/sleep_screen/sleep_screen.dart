@@ -84,7 +84,9 @@ class _SleepScreenState extends State<SleepScreen> {
                           fit: BoxFit.cover,
                         )),
                   ),
-                  CircleAvatar()
+                  CircleAvatar(
+                    radius: 20,
+                  )
                 ],
               )
             ],
