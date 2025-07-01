@@ -28,7 +28,7 @@ class _SleepScreenState extends State<SleepScreen> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               SizedBox(
-                height: 50,
+                height: 30,
               ),
               Text(
                 "Sleep Stories",

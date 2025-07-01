@@ -27,3 +27,5 @@ const String sleep = "assets/images/Sleep.png";
 const String kids = "assets/images/Kids.png";
 const String birds = "assets/images/birds.png";
 const String oceanMoon = "assets/images/oceanMoon.png";
+const String moonClouds = "assets\images\moonClouds.png";
+const String goodNight = "assets\images\goodNight.png";
