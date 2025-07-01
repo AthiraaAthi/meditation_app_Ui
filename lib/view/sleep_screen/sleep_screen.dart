@@ -74,6 +74,7 @@ class _SleepScreenState extends State<SleepScreen> {
               ),
               Container(
                 height: 240,
+                decoration: BoxDecoration(),
               )
             ],
           ),
