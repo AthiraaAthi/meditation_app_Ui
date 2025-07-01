@@ -17,7 +17,12 @@ class _SleepScreenState extends State<SleepScreen> {
     sleep,
     kids,
   ];
-  List<String> images = [];
+  List<String> images = [
+    nightIsland,
+    sweetSleep,
+    goodNight,
+    moonClouds,
+  ];
 
   @override
   Widget build(BuildContext context) {
