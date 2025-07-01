@@ -72,15 +72,20 @@ class _SleepScreenState extends State<SleepScreen> {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                height: 240,
-                decoration: BoxDecoration(
-                    color: welcomeBg,
-                    borderRadius: BorderRadius.circular(10),
-                    image: DecorationImage(
-                      image: AssetImage(oceanMoon),
-                      fit: BoxFit.cover,
-                    )),
+              Stack(
+                children: [
+                  Container(
+                    height: 240,
+                    decoration: BoxDecoration(
+                        color: welcomeBg,
+                        borderRadius: BorderRadius.circular(10),
+                        image: DecorationImage(
+                          image: AssetImage(oceanMoon),
+                          fit: BoxFit.cover,
+                        )),
+                  ),
+                  CircleAvatar()
+                ],
               )
             ],
           ),
