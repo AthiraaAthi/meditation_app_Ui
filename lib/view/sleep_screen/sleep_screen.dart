@@ -28,87 +28,92 @@ class _SleepScreenState extends State<SleepScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: darkBlue,
-      body: Padding(
-        padding: const EdgeInsets.all(15),
-        child: Center(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              SizedBox(
-                height: 30,
-              ),
-              Text(
-                "Sleep Stories",
-                style: TextStyle(
-                  fontSize: 28,
-                  color: white,
-                  fontWeight: FontWeight.w600,
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(15),
+          child: Center(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                SizedBox(
+                  height: 30,
                 ),
-              ),
-              SizedBox(
-                height: 10,
-              ),
-              Text(
-                "Soothing bedtime stories to help you fall \n into a deep and natural sleep",
-                style: TextStyle(
-                    color: white, fontSize: 16, fontWeight: FontWeight.w300),
-              ),
-              SizedBox(
-                height: 20,
-              ),
-              SizedBox(
-                height: 95,
-                child: ListView.builder(
-                  itemCount: options.length,
-                  shrinkWrap: true,
-                  scrollDirection: Axis.horizontal,
-                  itemBuilder: (context, index) => Padding(
-                    padding: const EdgeInsets.only(left: 15),
-                    child: Container(
-                      width: 65,
-                      decoration: BoxDecoration(
-                          image: DecorationImage(
-                            image: AssetImage(options[index]),
-                            fit: BoxFit.cover,
-                          ),
-                          borderRadius: BorderRadius.circular(10)),
-                    ),
+                Text(
+                  "Sleep Stories",
+                  style: TextStyle(
+                    fontSize: 28,
+                    color: white,
+                    fontWeight: FontWeight.w600,
                   ),
                 ),
-              ),
-              SizedBox(
-                height: 20,
-              ),
-              Stack(
-                children: [
-                  Container(
-                    height: 240,
-                    decoration: BoxDecoration(
-                        color: welcomeBg,
-                        borderRadius: BorderRadius.circular(10),
-                        image: DecorationImage(
-                          image: AssetImage(oceanMoon),
-                          fit: BoxFit.cover,
-                        )),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(
-                      top: 9,
-                      left: 5,
-                    ),
-                    child: CircleAvatar(
-                      radius: 16,
-                      backgroundColor: defBlue,
-                      child: Icon(
-                        Icons.lock_outline,
-                        color: white,
-                        size: 20,
+                SizedBox(
+                  height: 10,
+                ),
+                Text(
+                  "Soothing bedtime stories to help you fall \n into a deep and natural sleep",
+                  style: TextStyle(
+                      color: white, fontSize: 16, fontWeight: FontWeight.w300),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                SizedBox(
+                  height: 95,
+                  child: ListView.builder(
+                    itemCount: options.length,
+                    shrinkWrap: true,
+                    scrollDirection: Axis.horizontal,
+                    itemBuilder: (context, index) => Padding(
+                      padding: const EdgeInsets.only(left: 15),
+                      child: Container(
+                        width: 65,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: AssetImage(options[index]),
+                              fit: BoxFit.cover,
+                            ),
+                            borderRadius: BorderRadius.circular(10)),
                       ),
                     ),
-                  )
-                ],
-              )
-            ],
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Stack(
+                  children: [
+                    Container(
+                      height: 240,
+                      decoration: BoxDecoration(
+                          color: welcomeBg,
+                          borderRadius: BorderRadius.circular(10),
+                          image: DecorationImage(
+                            image: AssetImage(oceanMoon),
+                            fit: BoxFit.cover,
+                          )),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 9,
+                        left: 5,
+                      ),
+                      child: CircleAvatar(
+                        radius: 16,
+                        backgroundColor: defBlue,
+                        child: Icon(
+                          Icons.lock_outline,
+                          color: white,
+                          size: 20,
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+              ],
+            ),
           ),
         ),
       ),
